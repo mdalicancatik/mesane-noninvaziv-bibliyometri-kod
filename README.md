@@ -17,10 +17,16 @@
 README.md               this file
 CITATION.cff            citation metadata (read automatically by GitHub)
 LICENSE                 MIT (code) and CC BY 4.0 (derived data)
+SUPPLEMENTARY_EN.md     supplementary file of the article (search strings, compliance tables)
+SUPPLEMENTARY_EN.docx   the same document in Word format
 kod/                    analysis scripts and script guide
 veri/                   derived data
   DATA_DICTIONARY.md    field definitions, and what was removed and why
 ```
+
+The supplementary file contains the three full search strings and the item-by-item compliance
+tables for the BIBLIO, RAMIBS and GLOBAL reporting guidelines. It is archived here so that it
+remains accessible independently of the journal in which the article appears.
 
 The directory names `kod/` (code) and `veri/` (data) are Turkish and are retained because
 the scripts reference these paths. File contents and documentation are in English; inline
