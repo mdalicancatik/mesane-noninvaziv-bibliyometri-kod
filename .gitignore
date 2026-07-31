@@ -1,0 +1,18 @@
+# Raw Web of Science exports - PROPRIETARY, NEVER COMMIT
+*.bib
+savedrecs*
+Citation_Report*
+citation_report*
+
+# Intermediate outputs (derived from raw data, not shared)
+records.json
+records_uygun252.json
+screen1.json
+screen2.json
+merged.json
+
+# Environment
+__pycache__/
+*.pyc
+.venv/
+.DS_Store

@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this software or data, please cite it as below."
+title: "The 100 most-cited articles on non-invasive diagnosis and surveillance of bladder cancer: analysis code and derived data"
+abstract: >-
+  Python scripts and derived data used in a bibliometric analysis of the 100 most-cited
+  articles on the non-invasive diagnosis and surveillance of bladder cancer, based on the
+  Web of Science Core Collection (SCI-EXPANDED), 2016-2025, searched 30 July 2026. The raw
+  Web of Science records are proprietary and are not redistributed in this archive.
+type: software
+authors:
+  - family-names: "Çatık"
+    given-names: "Alican"
+    affiliation: "University of Health Sciences, Bakırköy Dr. Sadi Konuk Training and Research Hospital, İstanbul, Türkiye"
+    orcid: "https://orcid.org/0000-0002-0226-7804"
+version: "1.0.0"
+date-released: "2026-07-31"
+license: MIT
+keywords:
+  - bibliometrics
+  - bladder cancer
+  - non-invasive diagnosis
+  - citation analysis
+  - Web of Science
