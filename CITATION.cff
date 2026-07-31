@@ -10,10 +10,19 @@ type: software
 authors:
   - family-names: "Çatık"
     given-names: "Alican"
-    affiliation: "University of Health Sciences, Bakırköy Dr. Sadi Konuk Training and Research Hospital, İstanbul, Türkiye"
+    affiliation: "University of Health Sciences, Bakırköy Dr. Sadi Konuk Training and Research Hospital, Department of Urology, İstanbul, Türkiye"
     orcid: "https://orcid.org/0000-0002-0226-7804"
-version: "1.0.0"
-date-released: "2026-07-31"
+  - family-names: "Ekşi"
+    given-names: "Mithat"
+    affiliation: "University of Health Sciences, Bakırköy Dr. Sadi Konuk Training and Research Hospital, Department of Urology, İstanbul, Türkiye"
+  - family-names: "Karadağ"
+    given-names: "Serdar"
+    affiliation: "University of Health Sciences, Bakırköy Dr. Sadi Konuk Training and Research Hospital, Department of Urology, İstanbul, Türkiye"
+  - family-names: "Bitkin"
+    given-names: "Alper"
+    affiliation: "University of Health Sciences, Bakırköy Dr. Sadi Konuk Training and Research Hospital, Department of Urology, İstanbul, Türkiye"
+version: "1.2.0"
+date-released: "2026-08-01"
 license: MIT
 keywords:
   - bibliometrics

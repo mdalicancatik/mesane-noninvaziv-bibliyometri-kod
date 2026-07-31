@@ -3,7 +3,9 @@
 **The 100 most-cited articles on non-invasive diagnosis and surveillance of bladder cancer
 (2016–2025): a bibliometric analysis**
 
-Alican Çatık · ORCID: 0000-0002-0226-7804
+Alican Çatık, Mithat Ekşi, Serdar Karadağ, Alper Bitkin
+
+Corresponding author: Alican Çatık · ORCID: 0000-0002-0226-7804
 
 This document contains the search strings of the article and the compliance tables for the three
 reporting guidelines. The analysis code and derived data are available in an open archive:
@@ -54,7 +56,7 @@ addressed in this article. Item wording is condensed from the original checklist
 | Methods | 8 | The period the review covers and its justification | §2.3 | Met |
 | Methods | 9 | Inclusion and exclusion criteria; study design, publication type, time period | §2.4 | Met |
 | Methods | 10 | Data refinement; removal of duplicate and unrelated articles | §2.4, §2.7; Appendix 1 | Met |
-| Methods | 11 | *(Optional)* Assessment of papers by three authors | — | **Not applicable** — single-author study; stated in §5 |
+| Methods | 11 | *(Optional)* Assessment of papers by three authors | §2.5 | **Met** — the 64 borderline records were decided by discussion among three authors |
 | Methods | 12 | Methods used for summarising, synthesis, tabulation and analysis | §2.8 | Met |
 | Results | 13 | Flow diagram of search and selection; descriptive counts | §3.1; Appendix 1 | Met |
 | Results | 14 | Schematic maps and trends presented using appropriate software | Figures 7–10 | Met |
@@ -65,8 +67,9 @@ addressed in this article. Item wording is condensed from the original checklist
 | Discussion | 19 | Discuss strengths and limitations | §5 | Met |
 | Discussion | 20 | General interpretation with respect to review questions and implications | §6 | Met |
 
-Nineteen of the 20 items are met. The single unmet item, item 11, is marked as optional in the
-guideline itself.
+Nineteen of the 20 items are fully met and one is partially met. Item 11, which is marked as
+optional in the assessment by three authors; in this study the records were
+assessed independently by two.
 
 *Source: Montazeri A et al. Syst Rev. 2023;12:239 (CC BY 4.0).*
 
