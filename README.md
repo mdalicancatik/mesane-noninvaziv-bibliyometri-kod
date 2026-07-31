@@ -1,5 +1,3 @@
-# The 100 most-cited articles on non-invasive diagnosis and surveillance of bladder cancer — analysis code and derived data
-
 | | |
 |---|---|
 | **Author** | Alican Çatık · University of Health Sciences, Bakırköy Dr. Sadi Konuk Training and Research Hospital, İstanbul, Türkiye |
