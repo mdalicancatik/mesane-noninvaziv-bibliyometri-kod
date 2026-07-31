@@ -1,0 +1,3863 @@
+[
+ {
+  "rank": 91,
+  "tc": 551,
+  "year": "2021",
+  "doi": "10.1038/s41586-021-03642-9",
+  "title": "ctDNA guiding adjuvant immunotherapy in urothelial carcinoma",
+  "journal": "NATURE",
+  "type": "Article",
+  "bladder_t": true,
+  "tech_t": [
+   "ctdna"
+  ],
+  "tech_a": [
+   "circulating tumour dna",
+   "ctdna"
+  ],
+  "diag_s_t": [],
+  "diag_s_a": [],
+  "diag_w_t": [],
+  "mech_t": [],
+  "mech_a": [],
+  "treat_t": [
+   "immunotherapy"
+  ],
+  "treat_a": [
+   "immunotherapy",
+   "atezolizumab"
+  ],
+  "tissue_t": [],
+  "tissue_a": [],
+  "invas_t": [],
+  "general_t": [],
+  "mrd": [
+   "molecular residual disease",
+   "ctdna guiding",
+   "adjuvant immunotherapy in urothelial"
+  ],
+  "verdict": "IN"
+ },
+ {
+  "rank": 98,
+  "tc": 526,
+  "year": "2018",
+  "doi": "10.1016/j.eururo.2018.04.029",
+  "title": "Multiparametric Magnetic Resonance Imaging for Bladder Cancer: Development of VI-RADS (Vesical Imaging-Reporting And Data System)",
+  "journal": "EUROPEAN UROLOGY",
+  "type": "Review",
+  "bladder_t": true,
+  "tech_t": [
+   "magnetic resonance imaging",
+   "vi-rads",
+   "vesical imaging"
+  ],
+  "tech_a": [
+   "mri",
+   "magnetic resonance imaging",
+   "mpmri",
+   "vi-rads",
+   "vesical imaging",
+   "diffusion-weighted",
+   "computed tomography"
+  ],
+  "diag_s_t": [],
+  "diag_s_a": [
+   "staging"
+  ],
+  "diag_w_t": [],
+  "mech_t": [],
+  "mech_a": [
+   "facilitate"
+  ],
+  "treat_t": [],
+  "treat_a": [
+   "chemotherapy",
+   "cystectomy",
+   "neoadjuvant"
+  ],
+  "tissue_t": [],
+  "tissue_a": [
+   "histopathological"
+  ],
+  "invas_t": [],
+  "general_t": [],
+  "mrd": [],
+  "verdict": "IN"
+ },
+ {
+  "rank": 127,
+  "tc": 459,
+  "year": "2019",
+  "doi": "10.1200/JCO.18.02052",
+  "title": "Early Detection of Metastatic Relapse and Monitoring of Therapeutic Efficacy by Ultra-Deep Sequencing of Plasma Cell-Free DNA in Patients With Urothelial Bladder Carcinoma",
+  "journal": "JOURNAL OF CLINICAL ONCOLOGY",
+  "type": "Article",
+  "bladder_t": true,
+  "tech_t": [
+   "cell-free dna",
+   "plasma cell-free"
+  ],
+  "tech_a": [
+   "cell-free dna",
+   "circulating tumor dna",
+   "ctdna",
+   "plasma cell-free"
+  ],
+  "diag_s_t": [
+   "detection of",
+   "early detection",
+   "monitoring"
+  ],
+  "diag_s_a": [
+   "detection of",
+   "early detection",
+   "surveillance",
+   "risk stratification",
+   "monitoring"
+  ],
+  "diag_w_t": [
+   "detection"
+  ],
+  "mech_t": [],
+  "mech_a": [],
+  "treat_t": [
+   "therapeutic efficacy"
+  ],
+  "treat_a": [
+   "chemotherapy",
+   "cystectomy",
+   "neoadjuvant",
+   "therapeutic efficacy"
+  ],
+  "tissue_t": [],
+  "tissue_a": [],
+  "invas_t": [],
+  "general_t": [],
+  "mrd": [],
+  "verdict": "IN"
+ },
+ {
+  "rank": 187,
+  "tc": 335,
+  "year": "2017",
+  "doi": "10.1158/1078-0432.CCR-17-1510",
+  "title": "A Radiomics Nomogram for the Preoperative Prediction of Lymph Node Metastasis in Bladder Cancer",
+  "journal": "CLINICAL CANCER RESEARCH",
+  "type": "Article",
+  "bladder_t": true,
+  "tech_t": [
+   "radiomics"
+  ],
+  "tech_a": [
+   "radiomics"
+  ],
+  "diag_s_t": [
+   "preoperative prediction"
+  ],
+  "diag_s_a": [
+   "preoperative prediction"
+  ],
+  "diag_w_t": [],
+  "mech_t": [],
+  "mech_a": [],
+  "treat_t": [],
+  "treat_a": [
+   "chemotherapy",
+   "cystectomy"
+  ],
+  "tissue_t": [],
+  "tissue_a": [],
+  "invas_t": [],
+  "general_t": [],
+  "mrd": [],
+  "verdict": "IN"
+ },
+ {
+  "rank": 244,
+  "tc": 278,
+  "year": "2017",
+  "doi": "10.1038/srep46224",
+  "title": "An integrated double-filtration microfluidic device for isolation, enrichment and quantification of urinary extracellular vesicles for detection of bladder cancer",
+  "journal": "SCIENTIFIC REPORTS",
+  "type": "Article",
+  "bladder_t": true,
+  "tech_t": [
+   "microfluidic",
+   "extracellular vesicles"
+  ],
+  "tech_a": [
+   "urine cytology",
+   "microfluidic",
+   "exosomes",
+   "extracellular vesicles"
+  ],
+  "diag_s_t": [
+   "detection of"
+  ],
+  "diag_s_a": [
+   "detection of"
+  ],
+  "diag_w_t": [
+   "detection"
+  ],
+  "mech_t": [],
+  "mech_a": [],
+  "treat_t": [],
+  "treat_a": [],
+  "tissue_t": [],
+  "tissue_a": [],
+  "invas_t": [],
+  "general_t": [],
+  "mrd": [],
+  "verdict": "IN"
+ },
+ {
+  "rank": 327,
+  "tc": 233,
+  "year": "2016",
+  "doi": "10.1371/journal.pone.0147236",
+  "title": "Expression of the Long Non-Coding RNA HOTAIR Correlates with Disease Progression in Bladder Cancer and Is Contained in Bladder Cancer Patient Urinary Exosomes",
+  "journal": "PLOS ONE",
+  "type": "Article",
+  "bladder_t": true,
+  "tech_t": [
+   "exosomes"
+  ],
+  "tech_a": [
+   "exosomes",
+   "extracellular vesicles",
+   "mirna"
+  ],
+  "diag_s_t": [],
+  "diag_s_a": [
+   "serve as biomarkers",
+   "as biomarkers"
+  ],
+  "diag_w_t": [],
+  "mech_t": [],
+  "mech_a": [
+   "facilitate",
+   "proliferation",
+   "migration and invasion",
+   "epithelial-mesenchymal",
+   "knockdown",
+   "in vitro",
+   "cell lines"
+  ],
+  "treat_t": [],
+  "treat_a": [],
+  "tissue_t": [],
+  "tissue_a": [],
+  "invas_t": [],
+  "general_t": [],
+  "mrd": [],
+  "verdict": "IN"
+ },
+ {
+  "rank": 351,
+  "tc": 220,
+  "year": "2020",
+  "doi": "10.1172/JCI139597",
+  "title": "Urine DNA methylation assay enables early detection and recurrence monitoring for bladder cancer",
+  "journal": "JOURNAL OF CLINICAL INVESTIGATION",
+  "type": "Article",
+  "bladder_t": true,
+  "tech_t": [
+   "urine dna",
+   "dna methylation"
+  ],
+  "tech_a": [
+   "urine cytology",
+   "urine dna",
+   "urine tumor dna",
+   "dna methylation",
+   "fish"
+  ],
+  "diag_s_t": [
+   "early detection",
+   "monitoring"
+  ],
+  "diag_s_a": [
+   "detection of",
+   "early detection",
+   "surveillance",
+   "sensitivity and specificity",
+   "monitoring"
+  ],
+  "diag_w_t": [
+   "detection"
+  ],
+  "mech_t": [],
+  "mech_a": [],
+  "treat_t": [],
+  "treat_a": [],
+  "tissue_t": [],
+  "tissue_a": [],
+  "invas_t": [],
+  "general_t": [],
+  "mrd": [],
+  "verdict": "IN"
+ },
+ {
+  "rank": 382,
+  "tc": 206,
+  "year": "2019",
+  "doi": "10.1111/cas.13856",
+  "title": "Circulating miRNA panels for specific and early detection in bladder cancer",
+  "journal": "CANCER SCIENCE",
+  "type": "Article",
+  "bladder_t": true,
+  "tech_t": [
+   "circulating mirna",
+   "mirna"
+  ],
+  "tech_a": [
+   "urinary cytology",
+   "liquid biopsy",
+   "circulating mirna",
+   "serum microrna",
+   "microrna",
+   "mirna"
+  ],
+  "diag_s_t": [
+   "early detection"
+  ],
+  "diag_s_a": [
+   "diagnostic accuracy",
+   "diagnostic performance",
+   "detection of",
+   "early detection",
+   "screening"
+  ],
+  "diag_w_t": [
+   "detection"
+  ],
+  "mech_t": [],
+  "mech_a": [],
+  "treat_t": [],
+  "treat_a": [],
+  "tissue_t": [],
+  "tissue_a": [],
+  "invas_t": [],
+  "general_t": [],
+  "mrd": [],
+  "verdict": "IN"
+ },
+ {
+  "rank": 395,
+  "tc": 201,
+  "year": "2016",
+  "doi": "10.1118/1.4944498",
+  "title": "Urinary bladder segmentation in CT urography using deep-learning convolutional neural network and level sets",
+  "journal": "MEDICAL PHYSICS",
+  "type": "Article",
+  "bladder_t": true,
+  "tech_t": [
+   "ct urography",
+   "urography",
+   "convolutional neural network",
+   "neural network"
+  ],
+  "tech_a": [
+   "ct urography",
+   "urography",
+   "convolutional neural network",
+   "neural network",
+   "computer-aided detection"
+  ],
+  "diag_s_t": [],
+  "diag_s_a": [
+   "detection of"
+  ],
+  "diag_w_t": [],
+  "mech_t": [],
+  "mech_a": [],
+  "treat_t": [],
+  "treat_a": [],
+  "tissue_t": [],
+  "tissue_a": [],
+  "invas_t": [],
+  "general_t": [],
+  "mrd": [],
+  "verdict": "IN"
+ },
+ {
+  "rank": 406,
+  "tc": 197,
+  "year": "2018",
+  "doi": "10.1186/s12943-018-0893-y",
+  "title": "Expression signatures of exosomal long non-coding RNAs in urine serve as novel non-invasive biomarkers for diagnosis and recurrence prediction of bladder cancer",
+  "journal": "MOLECULAR CANCER",
+  "type": "Article",
+  "bladder_t": true,
+  "tech_t": [
+   "exosomal"
+  ],
+  "tech_a": [
+   "urine cytology",
+   "exosome",
+   "exosomes",
+   "exosomal"
+  ],
+  "diag_s_t": [
+   "serve as novel"
+  ],
+  "diag_s_a": [
+   "serve as novel"
+  ],
+  "diag_w_t": [
+   "diagnosis"
+  ],
+  "mech_t": [],
+  "mech_a": [
+   "overexpression"
+  ],
+  "treat_t": [],
+  "treat_a": [],
+  "tissue_t": [],
+  "tissue_a": [],
+  "invas_t": [],
+  "general_t": [],
+  "mrd": [],
+  "verdict": "IN"
+ },
+ {
+  "rank": 418,
+  "tc": 192,
+  "year": "2019",
+  "doi": "10.1158/2159-8290.CD-18-0825",
+  "title": "Detection and Surveillance of Bladder Cancer Using Urine Tumor DNA",
+  "journal": "CANCER DISCOVERY",
+  "type": "Article",
+  "bladder_t": true,
+  "tech_t": [
+   "urine tumor dna"
+  ],
+  "tech_a": [
+   "urine tumor dna",
+   "urovysion"
+  ],
+  "diag_s_t": [
+   "surveillance"
+  ],
+  "diag_s_a": [
+   "detection of",
+   "early detection",
+   "noninvasive detection",
+   "surveillance",
+   "sensitivity and specificity",
+   "monitoring"
+  ],
+  "diag_w_t": [
+   "detection"
+  ],
+  "mech_t": [],
+  "mech_a": [],
+  "treat_t": [],
+  "treat_a": [],
+  "tissue_t": [],
+  "tissue_a": [],
+  "invas_t": [],
+  "general_t": [],
+  "mrd": [],
+  "verdict": "IN"
+ },
+ {
+  "rank": 449,
+  "tc": 183,
+  "year": "2021",
+  "doi": "10.1016/j.urolonc.2020.08.016",
+  "title": "Urinary biomarkers in bladder cancer: A review of the current landscape and future directions",
+  "journal": "UROLOGIC ONCOLOGY-SEMINARS AND ORIGINAL INVESTIGATIONS",
+  "type": "Review",
+  "bladder_t": true,
+  "tech_t": [
+   "urinary biomarkers"
+  ],
+  "tech_a": [
+   "urine cytology",
+   "urinary biomarkers",
+   "urine biomarkers",
+   "urine-based",
+   "bta trak",
+   "exosomal",
+   "extracellular vesicles"
+  ],
+  "diag_s_t": [],
+  "diag_s_a": [
+   "surveillance",
+   "sensitivity and specificity"
+  ],
+  "diag_w_t": [],
+  "mech_t": [],
+  "mech_a": [],
+  "treat_t": [],
+  "treat_a": [],
+  "tissue_t": [],
+  "tissue_a": [],
+  "invas_t": [],
+  "general_t": [],
+  "mrd": [],
+  "verdict": "IN"
+ },
+ {
+  "rank": 465,
+  "tc": 178,
+  "year": "2019",
+  "doi": "10.1148/radiol.2019182506",
+  "title": "Multiparametric MRI for Bladder Cancer: Validation of VI-RADS for the Detection of Detrusor Muscle Invasion",
+  "journal": "RADIOLOGY",
+  "type": "Article",
+  "bladder_t": true,
+  "tech_t": [
+   "mri",
+   "multiparametric mri",
+   "vi-rads"
+  ],
+  "tech_a": [
+   "mri",
+   "multiparametric mri",
+   "vi-rads",
+   "vesical imaging",
+   "diffusion-weighted"
+  ],
+  "diag_s_t": [
+   "detection of"
+  ],
+  "diag_s_a": [
+   "diagnostic performance",
+   "detection of",
+   "sensitivity and specificity",
+   "staging"
+  ],
+  "diag_w_t": [
+   "detection"
+  ],
+  "mech_t": [],
+  "mech_a": [],
+  "treat_t": [],
+  "treat_a": [],
+  "tissue_t": [],
+  "tissue_a": [],
+  "invas_t": [],
+  "general_t": [],
+  "mrd": [],
+  "verdict": "IN"
+ },
+ {
+  "rank": 541,
+  "tc": 159,
+  "year": "2017",
+  "doi": "10.1016/j.eururo.2016.12.016",
+  "title": "Liquid Biopsy Analysis of FGFR3 and PIK3CA Hotspot Mutations for Disease Surveillance in Bladder Cancer",
+  "journal": "EUROPEAN UROLOGY",
+  "type": "Article",
+  "bladder_t": true,
+  "tech_t": [
+   "liquid biopsy"
+  ],
+  "tech_a": [
+   "liquid biopsy",
+   "cell-free dna"
+  ],
+  "diag_s_t": [
+   "surveillance"
+  ],
+  "diag_s_a": [
+   "screening",
+   "surveillance"
+  ],
+  "diag_w_t": [],
+  "mech_t": [],
+  "mech_a": [],
+  "treat_t": [],
+  "treat_a": [
+   "cystectomy"
+  ],
+  "tissue_t": [],
+  "tissue_a": [],
+  "invas_t": [],
+  "general_t": [],
+  "mrd": [],
+  "verdict": "IN"
+ },
+ {
+  "rank": 558,
+  "tc": 157,
+  "year": "2018",
+  "doi": "10.1016/j.euo.2018.06.011",
+  "title": "Performance of the Bladder EpiCheck™ Methylation Test for Patients Under Surveillance for Non-muscle-invasive Bladder Cancer: Results of a Multicenter, Prospective, Blinded Clinical Trial",
+  "journal": "EUROPEAN UROLOGY ONCOLOGY",
+  "type": "Article",
+  "bladder_t": true,
+  "tech_t": [
+   "epicheck"
+  ],
+  "tech_a": [
+   "urinary biomarker",
+   "epicheck",
+   "dna methylation"
+  ],
+  "diag_s_t": [
+   "surveillance"
+  ],
+  "diag_s_a": [
+   "surveillance"
+  ],
+  "diag_w_t": [],
+  "mech_t": [],
+  "mech_a": [],
+  "treat_t": [],
+  "treat_a": [],
+  "tissue_t": [],
+  "tissue_a": [],
+  "invas_t": [],
+  "general_t": [],
+  "mrd": [],
+  "verdict": "IN"
+ },
+ {
+  "rank": 571,
+  "tc": 155,
+  "year": "2017",
+  "doi": "10.1038/s41598-017-09315-w",
+  "title": "Bladder Cancer Treatment Response Assessment in CT using Radiomics with Deep-Learning",
+  "journal": "SCIENTIFIC REPORTS",
+  "type": "Article",
+  "bladder_t": true,
+  "tech_t": [
+   "radiomics"
+  ],
+  "tech_a": [
+   "urography",
+   "computed tomography",
+   "radiomics",
+   "neural network",
+   "computer-aided detection"
+  ],
+  "diag_s_t": [],
+  "diag_s_a": [
+   "staging"
+  ],
+  "diag_w_t": [],
+  "mech_t": [],
+  "mech_a": [],
+  "treat_t": [],
+  "treat_a": [
+   "chemotherapy"
+  ],
+  "tissue_t": [],
+  "tissue_a": [],
+  "invas_t": [],
+  "general_t": [],
+  "mrd": [],
+  "verdict": "IN"
+ },
+ {
+  "rank": 569,
+  "tc": 155,
+  "year": "2018",
+  "doi": "10.7554/eLife.32143",
+  "title": "Non-invasive detection of urothelial cancer through the analysis of driver gene mutations and aneuploidy",
+  "journal": "ELIFE",
+  "type": "Article",
+  "bladder_t": true,
+  "tech_t": [],
+  "tech_a": [
+   "uroseek",
+   "tert promoter"
+  ],
+  "diag_s_t": [
+   "detection of",
+   "non-invasive detection"
+  ],
+  "diag_s_a": [
+   "detection of",
+   "non-invasive detection",
+   "surveillance"
+  ],
+  "diag_w_t": [
+   "detection"
+  ],
+  "mech_t": [],
+  "mech_a": [
+   "overexpression"
+  ],
+  "treat_t": [],
+  "treat_a": [],
+  "tissue_t": [],
+  "tissue_a": [],
+  "invas_t": [],
+  "general_t": [],
+  "mrd": [],
+  "verdict": "IN"
+ },
+ {
+  "rank": 619,
+  "tc": 147,
+  "year": "2018",
+  "doi": "10.1016/j.eururo.2017.09.011",
+  "title": "Monitoring Treatment Response and Metastatic Relapse in Advanced Bladder Cancer by Liquid Biopsy Analysis",
+  "journal": "EUROPEAN UROLOGY",
+  "type": "Article",
+  "bladder_t": true,
+  "tech_t": [
+   "liquid biopsy"
+  ],
+  "tech_a": [
+   "liquid biopsy",
+   "cell-free dna",
+   "circulating tumour dna",
+   "ctdna"
+  ],
+  "diag_s_t": [
+   "monitoring"
+  ],
+  "diag_s_a": [
+   "detection of",
+   "early detection",
+   "monitoring"
+  ],
+  "diag_w_t": [],
+  "mech_t": [],
+  "mech_a": [
+   "targeting"
+  ],
+  "treat_t": [],
+  "treat_a": [
+   "chemotherapy",
+   "cystectomy",
+   "neoadjuvant"
+  ],
+  "tissue_t": [],
+  "tissue_a": [],
+  "invas_t": [],
+  "general_t": [],
+  "mrd": [],
+  "verdict": "IN"
+ },
+ {
+  "rank": 670,
+  "tc": 140,
+  "year": "2020",
+  "doi": "10.1016/j.euo.2020.02.007",
+  "title": "Diagnostic Performance of Vesical Imaging Reporting and Data System for the Prediction of Muscle-invasive Bladder Cancer: A Systematic Review and Meta-analysis",
+  "journal": "EUROPEAN UROLOGY ONCOLOGY",
+  "type": "Review",
+  "bladder_t": true,
+  "tech_t": [
+   "vesical imaging"
+  ],
+  "tech_a": [
+   "mri",
+   "magnetic resonance imaging",
+   "vi-rads",
+   "vesical imaging"
+  ],
+  "diag_s_t": [
+   "diagnostic performance"
+  ],
+  "diag_s_a": [
+   "diagnostic accuracy",
+   "diagnostic performance",
+   "sensitivity and specificity"
+  ],
+  "diag_w_t": [
+   "diagnostic"
+  ],
+  "mech_t": [],
+  "mech_a": [],
+  "treat_t": [],
+  "treat_a": [
+   "cystectomy"
+  ],
+  "tissue_t": [],
+  "tissue_a": [],
+  "invas_t": [],
+  "general_t": [],
+  "mrd": [],
+  "verdict": "IN"
+ },
+ {
+  "rank": 686,
+  "tc": 138,
+  "year": "2017",
+  "doi": "10.1158/1078-0432.CCR-17-1140",
+  "title": "Circulating Tumor DNA Reveals Clinically Actionable Somatic Genome of Metastatic Bladder Cancer",
+  "journal": "CLINICAL CANCER RESEARCH",
+  "type": "Article",
+  "bladder_t": true,
+  "tech_t": [
+   "circulating tumor dna"
+  ],
+  "tech_a": [
+   "cell-free dna",
+   "cfdna",
+   "circulating tumor dna",
+   "ctdna",
+   "plasma cell-free"
+  ],
+  "diag_s_t": [],
+  "diag_s_a": [],
+  "diag_w_t": [],
+  "mech_t": [],
+  "mech_a": [],
+  "treat_t": [],
+  "treat_a": [
+   "chemotherapy",
+   "pembrolizumab",
+   "nivolumab"
+  ],
+  "tissue_t": [],
+  "tissue_a": [],
+  "invas_t": [],
+  "general_t": [],
+  "mrd": [],
+  "verdict": "IN"
+ },
+ {
+  "rank": 734,
+  "tc": 130,
+  "year": "2017",
+  "doi": "10.1002/jmri.25669",
+  "title": "Radiomics Assessment of Bladder Cancer Grade Using Texture Features From Diffusion-Weighted Imaging",
+  "journal": "JOURNAL OF MAGNETIC RESONANCE IMAGING",
+  "type": "Article",
+  "bladder_t": true,
+  "tech_t": [
+   "diffusion-weighted",
+   "radiomics"
+  ],
+  "tech_a": [
+   "mri",
+   "magnetic resonance imaging",
+   "diffusion-weighted",
+   "radiomics"
+  ],
+  "diag_s_t": [],
+  "diag_s_a": [],
+  "diag_w_t": [],
+  "mech_t": [],
+  "mech_a": [
+   "facilitate"
+  ],
+  "treat_t": [],
+  "treat_a": [],
+  "tissue_t": [],
+  "tissue_a": [],
+  "invas_t": [],
+  "general_t": [],
+  "mrd": [],
+  "verdict": "IN"
+ },
+ {
+  "rank": 760,
+  "tc": 127,
+  "year": "2018",
+  "doi": "10.1016/j.ebiom.2018.07.029",
+  "title": "Development and Validation of an MRI-Based Radiomics Signature for the Preoperative Prediction of Lymph Node Metastasis in Bladder Cancer",
+  "journal": "EBIOMEDICINE",
+  "type": "Article",
+  "bladder_t": true,
+  "tech_t": [
+   "mri",
+   "radiomics"
+  ],
+  "tech_a": [
+   "mri",
+   "magnetic resonance imaging",
+   "radiomics"
+  ],
+  "diag_s_t": [
+   "preoperative prediction"
+  ],
+  "diag_s_a": [
+   "staging",
+   "preoperative prediction"
+  ],
+  "diag_w_t": [],
+  "mech_t": [],
+  "mech_a": [],
+  "treat_t": [],
+  "treat_a": [
+   "chemotherapy",
+   "cystectomy",
+   "neoadjuvant"
+  ],
+  "tissue_t": [],
+  "tissue_a": [],
+  "invas_t": [],
+  "general_t": [],
+  "mrd": [],
+  "verdict": "IN"
+ },
+ {
+  "rank": 756,
+  "tc": 127,
+  "year": "2023",
+  "doi": "10.1038/s41585-023-00773-8",
+  "title": "Urine biomarkers in bladder cancer - current status and future perspectives",
+  "journal": "NATURE REVIEWS UROLOGY",
+  "type": "Review",
+  "bladder_t": true,
+  "tech_t": [
+   "urine biomarkers"
+  ],
+  "tech_a": [
+   "urinary biomarkers",
+   "urine biomarkers",
+   "extracellular vesicles"
+  ],
+  "diag_s_t": [],
+  "diag_s_a": [
+   "detection of"
+  ],
+  "diag_w_t": [],
+  "mech_t": [],
+  "mech_a": [],
+  "treat_t": [],
+  "treat_a": [],
+  "tissue_t": [],
+  "tissue_a": [],
+  "invas_t": [],
+  "general_t": [],
+  "mrd": [],
+  "verdict": "IN"
+ },
+ {
+  "rank": 787,
+  "tc": 124,
+  "year": "2019",
+  "doi": "10.1016/j.eururo.2019.03.012",
+  "title": "Diagnostic Accuracy and Interobserver Agreement for the Vesical Imaging-Reporting and Data System for Muscle-invasive Bladder Cancer: A Multireader Validation Study",
+  "journal": "EUROPEAN UROLOGY",
+  "type": "Article",
+  "bladder_t": true,
+  "tech_t": [
+   "vesical imaging"
+  ],
+  "tech_a": [
+   "mri",
+   "magnetic resonance imaging",
+   "vi-rads",
+   "vesical imaging"
+  ],
+  "diag_s_t": [
+   "diagnostic accuracy"
+  ],
+  "diag_s_a": [
+   "diagnostic accuracy",
+   "diagnostic performance",
+   "staging"
+  ],
+  "diag_w_t": [
+   "diagnostic"
+  ],
+  "mech_t": [],
+  "mech_a": [],
+  "treat_t": [],
+  "treat_a": [],
+  "tissue_t": [],
+  "tissue_a": [],
+  "invas_t": [],
+  "general_t": [],
+  "mrd": [],
+  "verdict": "IN"
+ },
+ {
+  "rank": 805,
+  "tc": 122,
+  "year": "2019",
+  "doi": "10.1007/s00330-019-06117-8",
+  "title": "Multiparametric MRI of the bladder: inter-observer agreement and accuracy with the Vesical Imaging-Reporting and Data System (VI-RADS) at a single reference center",
+  "journal": "EUROPEAN RADIOLOGY",
+  "type": "Article",
+  "bladder_t": true,
+  "tech_t": [
+   "mri",
+   "multiparametric mri",
+   "vi-rads",
+   "vesical imaging"
+  ],
+  "tech_a": [
+   "mri",
+   "magnetic resonance imaging",
+   "multiparametric mri",
+   "mpmri",
+   "vi-rads",
+   "vesical imaging"
+  ],
+  "diag_s_t": [],
+  "diag_s_a": [
+   "sensitivity and specificity",
+   "staging"
+  ],
+  "diag_w_t": [],
+  "mech_t": [],
+  "mech_a": [],
+  "treat_t": [],
+  "treat_a": [],
+  "tissue_t": [],
+  "tissue_a": [],
+  "invas_t": [],
+  "general_t": [],
+  "mrd": [],
+  "verdict": "IN"
+ },
+ {
+  "rank": 817,
+  "tc": 120,
+  "year": "2024",
+  "doi": "10.1016/j.eururo.2023.06.007",
+  "title": "Updated Overall Survival by Circulating Tumor DNA Status from the Phase 3 IMvigor010 Trial: Adjuvant Atezolizumab Versus Observation in Muscle-invasive Urothelial Carcinoma",
+  "journal": "EUROPEAN UROLOGY",
+  "type": "Article",
+  "bladder_t": true,
+  "tech_t": [
+   "circulating tumor dna"
+  ],
+  "tech_a": [
+   "circulating tumor dna",
+   "ctdna"
+  ],
+  "diag_s_t": [],
+  "diag_s_a": [],
+  "diag_w_t": [],
+  "mech_t": [],
+  "mech_a": [],
+  "treat_t": [
+   "atezolizumab"
+  ],
+  "treat_a": [
+   "atezolizumab",
+   "cystectomy",
+   "checkpoint inhibitor"
+  ],
+  "tissue_t": [],
+  "tissue_a": [],
+  "invas_t": [],
+  "general_t": [],
+  "mrd": [
+   "imvigor010"
+  ],
+  "verdict": "IN"
+ },
+ {
+  "rank": 917,
+  "tc": 112,
+  "year": "2017",
+  "doi": "10.1002/mp.12510",
+  "title": "Urinary bladder cancer staging in CT urography using machine learning",
+  "journal": "MEDICAL PHYSICS",
+  "type": "Article",
+  "bladder_t": true,
+  "tech_t": [
+   "ct urography",
+   "urography",
+   "machine learning"
+  ],
+  "tech_a": [
+   "ct urography",
+   "urography",
+   "radiomics",
+   "machine learning",
+   "neural network",
+   "computer-aided diagnosis"
+  ],
+  "diag_s_t": [
+   "staging"
+  ],
+  "diag_s_a": [
+   "staging"
+  ],
+  "diag_w_t": [],
+  "mech_t": [],
+  "mech_a": [],
+  "treat_t": [],
+  "treat_a": [
+   "chemotherapy",
+   "cystectomy",
+   "neoadjuvant"
+  ],
+  "tissue_t": [],
+  "tissue_a": [],
+  "invas_t": [],
+  "general_t": [],
+  "mrd": [],
+  "verdict": "IN"
+ },
+ {
+  "rank": 915,
+  "tc": 112,
+  "year": "2019",
+  "doi": "10.1111/jcmm.14042",
+  "title": "Evaluation of serum exosomal LncRNA-based biomarker panel for diagnosis and recurrence prediction of bladder cancer",
+  "journal": "JOURNAL OF CELLULAR AND MOLECULAR MEDICINE",
+  "type": "Article",
+  "bladder_t": true,
+  "tech_t": [
+   "exosomal"
+  ],
+  "tech_a": [
+   "urine cytology",
+   "exosome",
+   "exosomes",
+   "exosomal"
+  ],
+  "diag_s_t": [
+   "biomarker panel"
+  ],
+  "diag_s_a": [
+   "diagnostic accuracy",
+   "biomarker panel"
+  ],
+  "diag_w_t": [
+   "diagnosis"
+  ],
+  "mech_t": [],
+  "mech_a": [
+   "promotes",
+   "proliferation"
+  ],
+  "treat_t": [],
+  "treat_a": [],
+  "tissue_t": [],
+  "tissue_a": [],
+  "invas_t": [],
+  "general_t": [],
+  "mrd": [],
+  "verdict": "IN"
+ },
+ {
+  "rank": 934,
+  "tc": 111,
+  "year": "2018",
+  "doi": "10.1148/radiol.2017171028",
+  "title": "The Diagnostic Value of MR Imaging in Differentiating T Staging of Bladder Cancer: A Meta-Analysis",
+  "journal": "RADIOLOGY",
+  "type": "Article",
+  "bladder_t": true,
+  "tech_t": [],
+  "tech_a": [
+   "diffusion-weighted",
+   "pet/ct"
+  ],
+  "diag_s_t": [
+   "diagnostic value",
+   "staging"
+  ],
+  "diag_s_a": [
+   "diagnostic accuracy",
+   "diagnostic performance",
+   "diagnostic value",
+   "sensitivity and specificity",
+   "staging"
+  ],
+  "diag_w_t": [
+   "diagnostic"
+  ],
+  "mech_t": [],
+  "mech_a": [],
+  "treat_t": [],
+  "treat_a": [],
+  "tissue_t": [],
+  "tissue_a": [],
+  "invas_t": [],
+  "general_t": [],
+  "mrd": [],
+  "verdict": "IN"
+ },
+ {
+  "rank": 1031,
+  "tc": 104,
+  "year": "2018",
+  "doi": "10.1007/s00345-018-2380-x",
+  "title": "An up-to-date catalog of available urinary biomarkers for the surveillance of non-muscle invasive bladder cancer",
+  "journal": "WORLD JOURNAL OF UROLOGY",
+  "type": "Review",
+  "bladder_t": true,
+  "tech_t": [
+   "urinary biomarkers"
+  ],
+  "tech_a": [
+   "urinary cytology",
+   "urinary biomarker",
+   "urinary biomarkers",
+   "bta stat",
+   "fish"
+  ],
+  "diag_s_t": [
+   "surveillance"
+  ],
+  "diag_s_a": [
+   "detection of",
+   "surveillance",
+   "sensitivity and specificity"
+  ],
+  "diag_w_t": [],
+  "mech_t": [],
+  "mech_a": [],
+  "treat_t": [],
+  "treat_a": [
+   "bacillus calmette",
+   "intravesical"
+  ],
+  "tissue_t": [],
+  "tissue_a": [],
+  "invas_t": [],
+  "general_t": [],
+  "mrd": [],
+  "verdict": "IN"
+ },
+ {
+  "rank": 1023,
+  "tc": 104,
+  "year": "2021",
+  "doi": "10.1016/j.euo.2021.10.003",
+  "title": "Diagnostic Accuracy of Novel Urinary Biomarker Tests in Non-muscle-invasive Bladder Cancer: A Systematic Review and Network Meta-analysis",
+  "journal": "EUROPEAN UROLOGY ONCOLOGY",
+  "type": "Review",
+  "bladder_t": true,
+  "tech_t": [
+   "urinary biomarker"
+  ],
+  "tech_a": [
+   "urine cytology",
+   "urinary biomarker",
+   "urinary biomarkers",
+   "cxbladder",
+   "epicheck",
+   "adxbladder",
+   "uromonitor",
+   "xpert bladder"
+  ],
+  "diag_s_t": [
+   "diagnostic accuracy"
+  ],
+  "diag_s_a": [
+   "diagnostic accuracy",
+   "detection of",
+   "surveillance"
+  ],
+  "diag_w_t": [
+   "diagnostic"
+  ],
+  "mech_t": [],
+  "mech_a": [],
+  "treat_t": [],
+  "treat_a": [],
+  "tissue_t": [],
+  "tissue_a": [],
+  "invas_t": [],
+  "general_t": [],
+  "mrd": [],
+  "verdict": "IN"
+ },
+ {
+  "rank": 1051,
+  "tc": 103,
+  "year": "2016",
+  "doi": "10.1038/ejhg.2015.281",
+  "title": "Genomic complexity of urothelial bladder cancer revealed in urinary cfDNA",
+  "journal": "EUROPEAN JOURNAL OF HUMAN GENETICS",
+  "type": "Article",
+  "bladder_t": true,
+  "tech_t": [
+   "cfdna"
+  ],
+  "tech_a": [
+   "liquid biopsy",
+   "cell-free dna",
+   "cfdna"
+  ],
+  "diag_s_t": [],
+  "diag_s_a": [
+   "detection of",
+   "surveillance"
+  ],
+  "diag_w_t": [],
+  "mech_t": [],
+  "mech_a": [],
+  "treat_t": [],
+  "treat_a": [],
+  "tissue_t": [],
+  "tissue_a": [],
+  "invas_t": [],
+  "general_t": [],
+  "mrd": [],
+  "verdict": "IN"
+ },
+ {
+  "rank": 1070,
+  "tc": 102,
+  "year": "2017",
+  "doi": "10.1016/j.ejrad.2017.07.021",
+  "title": "Diagnostic performance of MRI for prediction of muscle-invasiveness of bladder cancer: A systematic review and meta-analysis",
+  "journal": "EUROPEAN JOURNAL OF RADIOLOGY",
+  "type": "Article",
+  "bladder_t": true,
+  "tech_t": [
+   "mri"
+  ],
+  "tech_a": [
+   "mri",
+   "magnetic resonance imaging",
+   "multiparametric mri",
+   "diffusion-weighted"
+  ],
+  "diag_s_t": [
+   "diagnostic performance"
+  ],
+  "diag_s_a": [
+   "diagnostic accuracy",
+   "diagnostic performance",
+   "sensitivity and specificity",
+   "staging"
+  ],
+  "diag_w_t": [
+   "diagnostic"
+  ],
+  "mech_t": [],
+  "mech_a": [],
+  "treat_t": [],
+  "treat_a": [],
+  "tissue_t": [],
+  "tissue_a": [],
+  "invas_t": [],
+  "general_t": [],
+  "mrd": [],
+  "verdict": "IN"
+ },
+ {
+  "rank": 1081,
+  "tc": 101,
+  "year": "2017",
+  "doi": "10.18632/oncotarget.14969",
+  "title": "MiR-21-5p in urinary extracellular vesicles is a novel biomarker of urothelial carcinoma",
+  "journal": "ONCOTARGET",
+  "type": "Article",
+  "bladder_t": true,
+  "tech_t": [
+   "extracellular vesicles"
+  ],
+  "tech_a": [
+   "urine cytology",
+   "exosomes",
+   "extracellular vesicles",
+   "microrna"
+  ],
+  "diag_s_t": [],
+  "diag_s_a": [],
+  "diag_w_t": [],
+  "mech_t": [],
+  "mech_a": [
+   "tumor microenvironment"
+  ],
+  "treat_t": [],
+  "treat_a": [],
+  "tissue_t": [],
+  "tissue_a": [],
+  "invas_t": [],
+  "general_t": [],
+  "mrd": [],
+  "verdict": "IN"
+ },
+ {
+  "rank": 1082,
+  "tc": 100,
+  "year": "2025",
+  "doi": "10.1056/NEJMoa2511885",
+  "title": "ctDNA-Guided Adjuvant Atezolizumab in Muscle-Invasive Bladder Cancer",
+  "journal": "NEW ENGLAND JOURNAL OF MEDICINE",
+  "type": "Article",
+  "bladder_t": true,
+  "tech_t": [
+   "ctdna"
+  ],
+  "tech_a": [
+   "circulating tumor dna",
+   "ctdna"
+  ],
+  "diag_s_t": [],
+  "diag_s_a": [
+   "detection of",
+   "surveillance",
+   "monitoring"
+  ],
+  "diag_w_t": [],
+  "mech_t": [],
+  "mech_a": [],
+  "treat_t": [
+   "atezolizumab"
+  ],
+  "treat_a": [
+   "immunotherapy",
+   "atezolizumab",
+   "cystectomy"
+  ],
+  "tissue_t": [],
+  "tissue_a": [],
+  "invas_t": [],
+  "general_t": [],
+  "mrd": [
+   "imvigor011",
+   "molecular residual disease"
+  ],
+  "verdict": "IN"
+ },
+ {
+  "rank": 1108,
+  "tc": 99,
+  "year": "2017",
+  "doi": "10.1186/s13148-016-0303-5",
+  "title": "UroMark-a urinary biomarker assay for the detection of bladder cancer",
+  "journal": "CLINICAL EPIGENETICS",
+  "type": "Article",
+  "bladder_t": true,
+  "tech_t": [
+   "urinary biomarker",
+   "uromark"
+  ],
+  "tech_a": [
+   "urinary biomarker",
+   "urinary biomarkers",
+   "voided urine",
+   "urinary sediment",
+   "uromark",
+   "dna methylation"
+  ],
+  "diag_s_t": [
+   "detection of"
+  ],
+  "diag_s_a": [
+   "detection of",
+   "surveillance",
+   "biomarker panel",
+   "sensitivity and specificity"
+  ],
+  "diag_w_t": [
+   "detection"
+  ],
+  "mech_t": [],
+  "mech_a": [],
+  "treat_t": [],
+  "treat_a": [],
+  "tissue_t": [],
+  "tissue_a": [],
+  "invas_t": [],
+  "general_t": [],
+  "mrd": [],
+  "verdict": "IN"
+ },
+ {
+  "rank": 1125,
+  "tc": 98,
+  "year": "2018",
+  "doi": "10.1073/pnas.1816459115",
+  "title": "Noninvasive diagnostic imaging using machine-learning analysis of nanoresolution images of cell surfaces: Detection of bladder cancer",
+  "journal": "PROCEEDINGS OF THE NATIONAL ACADEMY OF SCIENCES OF THE UNITED STATES OF AMERICA",
+  "type": "Article",
+  "bladder_t": true,
+  "tech_t": [],
+  "tech_a": [
+   "urinary cytology",
+   "machine learning"
+  ],
+  "diag_s_t": [
+   "detection of"
+  ],
+  "diag_s_a": [
+   "diagnostic accuracy",
+   "detection of"
+  ],
+  "diag_w_t": [
+   "diagnostic",
+   "detection"
+  ],
+  "mech_t": [],
+  "mech_a": [],
+  "treat_t": [],
+  "treat_a": [],
+  "tissue_t": [],
+  "tissue_a": [],
+  "invas_t": [],
+  "general_t": [],
+  "mrd": [],
+  "verdict": "IN"
+ },
+ {
+  "rank": 1142,
+  "tc": 97,
+  "year": "2017",
+  "doi": "10.1016/j.juro.2016.12.010",
+  "title": "Performance Characteristics of a Multigene Urine Biomarker Test for Monitoring for Recurrent Urothelial Carcinoma in a Multicenter Study",
+  "journal": "JOURNAL OF UROLOGY",
+  "type": "Article",
+  "bladder_t": true,
+  "tech_t": [
+   "urine biomarker"
+  ],
+  "tech_a": [
+   "urine biomarker",
+   "cxbladder"
+  ],
+  "diag_s_t": [
+   "monitoring"
+  ],
+  "diag_s_a": [
+   "diagnostic performance",
+   "surveillance",
+   "monitoring"
+  ],
+  "diag_w_t": [],
+  "mech_t": [],
+  "mech_a": [],
+  "treat_t": [],
+  "treat_a": [
+   "bacillus calmette"
+  ],
+  "tissue_t": [],
+  "tissue_a": [],
+  "invas_t": [],
+  "general_t": [],
+  "mrd": [],
+  "verdict": "IN"
+ },
+ {
+  "rank": 1137,
+  "tc": 97,
+  "year": "2019",
+  "doi": "10.1111/bju.14673",
+  "title": "Diagnostic accuracy, clinical utility and influence on decision-making of a methylation urine biomarker test in the surveillance of non-muscle-invasive bladder cancer",
+  "journal": "BJU INTERNATIONAL",
+  "type": "Article",
+  "bladder_t": true,
+  "tech_t": [
+   "urine biomarker"
+  ],
+  "tech_a": [
+   "urinary biomarker",
+   "urine biomarker",
+   "epicheck"
+  ],
+  "diag_s_t": [
+   "diagnostic accuracy",
+   "surveillance"
+  ],
+  "diag_s_a": [
+   "diagnostic accuracy",
+   "detection of",
+   "surveillance"
+  ],
+  "diag_w_t": [
+   "diagnostic"
+  ],
+  "mech_t": [],
+  "mech_a": [],
+  "treat_t": [],
+  "treat_a": [],
+  "tissue_t": [],
+  "tissue_a": [],
+  "invas_t": [],
+  "general_t": [],
+  "mrd": [],
+  "verdict": "IN"
+ },
+ {
+  "rank": 1155,
+  "tc": 96,
+  "year": "2019",
+  "doi": "10.3390/ijms20040821",
+  "title": "Bladder Cancer Diagnosis and Follow-Up: The Current Status and Possible Role of Extracellular Vesicles",
+  "journal": "INTERNATIONAL JOURNAL OF MOLECULAR SCIENCES",
+  "type": "Review",
+  "bladder_t": true,
+  "tech_t": [
+   "extracellular vesicles"
+  ],
+  "tech_a": [
+   "urine cytology",
+   "urinary biomarkers",
+   "proteomics",
+   "exosomes",
+   "extracellular vesicles"
+  ],
+  "diag_s_t": [],
+  "diag_s_a": [
+   "detection of",
+   "non-invasive detection",
+   "as biomarkers"
+  ],
+  "diag_w_t": [
+   "diagnosis"
+  ],
+  "mech_t": [],
+  "mech_a": [],
+  "treat_t": [],
+  "treat_a": [],
+  "tissue_t": [],
+  "tissue_a": [],
+  "invas_t": [],
+  "general_t": [],
+  "mrd": [],
+  "verdict": "IN"
+ },
+ {
+  "rank": 1151,
+  "tc": 96,
+  "year": "2020",
+  "doi": "10.3390/diagnostics10010039",
+  "title": "Biomarkers for Bladder Cancer Diagnosis and Surveillance: A Comprehensive Review",
+  "journal": "DIAGNOSTICS",
+  "type": "Review",
+  "bladder_t": true,
+  "tech_t": [],
+  "tech_a": [
+   "urinary test",
+   "bta stat",
+   "tert promoter"
+  ],
+  "diag_s_t": [
+   "surveillance"
+  ],
+  "diag_s_a": [
+   "early detection",
+   "surveillance",
+   "staging",
+   "monitoring"
+  ],
+  "diag_w_t": [
+   "diagnosis"
+  ],
+  "mech_t": [],
+  "mech_a": [],
+  "treat_t": [],
+  "treat_a": [],
+  "tissue_t": [],
+  "tissue_a": [],
+  "invas_t": [],
+  "general_t": [],
+  "mrd": [],
+  "verdict": "IN"
+ },
+ {
+  "rank": 1243,
+  "tc": 91,
+  "year": "2017",
+  "doi": "10.1007/s00330-017-4758-3",
+  "title": "An evaluation of morphological and functional multi-parametric MRI sequences in classifying non-muscle and muscle invasive bladder cancer",
+  "journal": "EUROPEAN RADIOLOGY",
+  "type": "Article",
+  "bladder_t": true,
+  "tech_t": [
+   "mri"
+  ],
+  "tech_a": [
+   "mri",
+   "magnetic resonance imaging",
+   "mpmri",
+   "diffusion-weighted"
+  ],
+  "diag_s_t": [],
+  "diag_s_a": [
+   "staging"
+  ],
+  "diag_w_t": [],
+  "mech_t": [],
+  "mech_a": [],
+  "treat_t": [],
+  "treat_a": [],
+  "tissue_t": [],
+  "tissue_a": [
+   "histopathology"
+  ],
+  "invas_t": [],
+  "general_t": [],
+  "mrd": [],
+  "verdict": "IN"
+ },
+ {
+  "rank": 1267,
+  "tc": 90,
+  "year": "2016",
+  "doi": "10.1186/s12885-016-2758-3",
+  "title": "Programmed death-ligand 1 (PD-L1) characterization of circulating tumor cells (CTCs) in muscle invasive and metastatic bladder cancer patients",
+  "journal": "BMC CANCER",
+  "type": "Article",
+  "bladder_t": true,
+  "tech_t": [
+   "circulating tumor cells"
+  ],
+  "tech_a": [
+   "liquid biopsy",
+   "circulating tumor cells",
+   "fish"
+  ],
+  "diag_s_t": [],
+  "diag_s_a": [],
+  "diag_w_t": [],
+  "mech_t": [],
+  "mech_a": [],
+  "treat_t": [],
+  "treat_a": [
+   "chemotherapy",
+   "immunotherapy",
+   "nivolumab",
+   "checkpoint inhibitor"
+  ],
+  "tissue_t": [],
+  "tissue_a": [],
+  "invas_t": [],
+  "general_t": [],
+  "mrd": [],
+  "verdict": "IN"
+ },
+ {
+  "rank": 1274,
+  "tc": 89,
+  "year": "2020",
+  "doi": "10.1007/s00330-020-06802-z",
+  "title": "Use of Vesical Imaging-Reporting and Data System (VI-RADS) for detecting the muscle invasion of bladder cancer: a diagnostic meta-analysis",
+  "journal": "EUROPEAN RADIOLOGY",
+  "type": "Article",
+  "bladder_t": true,
+  "tech_t": [
+   "vi-rads",
+   "vesical imaging"
+  ],
+  "tech_a": [
+   "mri",
+   "magnetic resonance imaging",
+   "vi-rads",
+   "vesical imaging"
+  ],
+  "diag_s_t": [],
+  "diag_s_a": [
+   "diagnostic performance"
+  ],
+  "diag_w_t": [
+   "diagnostic"
+  ],
+  "mech_t": [],
+  "mech_a": [],
+  "treat_t": [],
+  "treat_a": [],
+  "tissue_t": [],
+  "tissue_a": [],
+  "invas_t": [],
+  "general_t": [],
+  "mrd": [],
+  "verdict": "IN"
+ },
+ {
+  "rank": 1310,
+  "tc": 88,
+  "year": "2017",
+  "doi": "10.1016/j.ejps.2016.10.008",
+  "title": "Extracellular vesicles as a source for non-invasive biomarkers in bladder cancer progression",
+  "journal": "EUROPEAN JOURNAL OF PHARMACEUTICAL SCIENCES",
+  "type": "Article",
+  "bladder_t": true,
+  "tech_t": [
+   "extracellular vesicles"
+  ],
+  "tech_a": [
+   "proteomics",
+   "exosomes",
+   "extracellular vesicles",
+   "microrna",
+   "mirna"
+  ],
+  "diag_s_t": [],
+  "diag_s_a": [],
+  "diag_w_t": [],
+  "mech_t": [],
+  "mech_a": [
+   "proliferation"
+  ],
+  "treat_t": [],
+  "treat_a": [],
+  "tissue_t": [],
+  "tissue_a": [],
+  "invas_t": [],
+  "general_t": [],
+  "mrd": [],
+  "verdict": "IN"
+ },
+ {
+  "rank": 1308,
+  "tc": 88,
+  "year": "2018",
+  "doi": "10.1002/cncr.31314",
+  "title": "Characterization of Metastatic Urothelial Carcinoma via Comprehensive Genomic Profiling of Circulating Tumor DNA",
+  "journal": "CANCER",
+  "type": "Article",
+  "bladder_t": true,
+  "tech_t": [
+   "circulating tumor dna"
+  ],
+  "tech_a": [
+   "cfdna",
+   "circulating tumor dna"
+  ],
+  "diag_s_t": [],
+  "diag_s_a": [],
+  "diag_w_t": [],
+  "mech_t": [],
+  "mech_a": [
+   "targeting"
+  ],
+  "treat_t": [],
+  "treat_a": [],
+  "tissue_t": [],
+  "tissue_a": [
+   "tumor tissue"
+  ],
+  "invas_t": [],
+  "general_t": [],
+  "mrd": [],
+  "verdict": "IN"
+ },
+ {
+  "rank": 1352,
+  "tc": 86,
+  "year": "2019",
+  "doi": "10.1016/j.eururo.2018.11.055",
+  "title": "Prospective Validation of an mRNA-based Urine Test for Surveillance of Patients with Bladder Cancer",
+  "journal": "EUROPEAN UROLOGY",
+  "type": "Article",
+  "bladder_t": true,
+  "tech_t": [],
+  "tech_a": [
+   "urovysion",
+   "xpert bladder",
+   "fish"
+  ],
+  "diag_s_t": [
+   "surveillance"
+  ],
+  "diag_s_a": [
+   "surveillance"
+  ],
+  "diag_w_t": [],
+  "mech_t": [],
+  "mech_a": [],
+  "treat_t": [],
+  "treat_a": [
+   "intravesical",
+   "chemotherapy",
+   "immunotherapy"
+  ],
+  "tissue_t": [],
+  "tissue_a": [],
+  "invas_t": [],
+  "general_t": [],
+  "mrd": [],
+  "verdict": "IN"
+ },
+ {
+  "rank": 1353,
+  "tc": 86,
+  "year": "2019",
+  "doi": "10.1002/jmri.26327",
+  "title": "Quantitative Identification of Nonmuscle-Invasive and Muscle-Invasive Bladder Carcinomas: A Multiparametric MRI Radiomics Analysis",
+  "journal": "JOURNAL OF MAGNETIC RESONANCE IMAGING",
+  "type": "Article",
+  "bladder_t": true,
+  "tech_t": [
+   "mri",
+   "multiparametric mri",
+   "radiomics"
+  ],
+  "tech_a": [
+   "mri",
+   "multiparametric mri",
+   "diffusion-weighted",
+   "radiomics"
+  ],
+  "diag_s_t": [],
+  "diag_s_a": [
+   "diagnostic accuracy",
+   "preoperative prediction"
+  ],
+  "diag_w_t": [],
+  "mech_t": [],
+  "mech_a": [],
+  "treat_t": [],
+  "treat_a": [],
+  "tissue_t": [],
+  "tissue_a": [],
+  "invas_t": [],
+  "general_t": [],
+  "mrd": [],
+  "verdict": "IN"
+ },
+ {
+  "rank": 1386,
+  "tc": 85,
+  "year": "2016",
+  "doi": "10.1158/1078-0432.CCR-15-2715",
+  "title": "Development and Validation of Urine-based Peptide Biomarker Panels for Detecting Bladder Cancer in a Multi-center Study",
+  "journal": "CLINICAL CANCER RESEARCH",
+  "type": "Article",
+  "bladder_t": true,
+  "tech_t": [
+   "urine-based"
+  ],
+  "tech_a": [
+   "urine-based",
+   "proteomic"
+  ],
+  "diag_s_t": [],
+  "diag_s_a": [
+   "surveillance",
+   "biomarker panel",
+   "monitoring"
+  ],
+  "diag_w_t": [],
+  "mech_t": [],
+  "mech_a": [],
+  "treat_t": [],
+  "treat_a": [],
+  "tissue_t": [],
+  "tissue_a": [],
+  "invas_t": [],
+  "general_t": [],
+  "mrd": [],
+  "verdict": "IN"
+ },
+ {
+  "rank": 1389,
+  "tc": 85,
+  "year": "2016",
+  "doi": "10.1016/j.juro.2015.08.085",
+  "title": "Evaluation of an Epigenetic Profile for the Detection of Bladder Cancer in Patients with Hematuria",
+  "journal": "JOURNAL OF UROLOGY",
+  "type": "Article",
+  "bladder_t": true,
+  "tech_t": [],
+  "tech_a": [
+   "urinary cytology",
+   "voided urine",
+   "telomerase"
+  ],
+  "diag_s_t": [
+   "detection of"
+  ],
+  "diag_s_a": [
+   "detection of",
+   "screening",
+   "sensitivity and specificity"
+  ],
+  "diag_w_t": [
+   "detection"
+  ],
+  "mech_t": [],
+  "mech_a": [],
+  "treat_t": [],
+  "treat_a": [],
+  "tissue_t": [],
+  "tissue_a": [],
+  "invas_t": [],
+  "general_t": [],
+  "mrd": [],
+  "verdict": "IN"
+ },
+ {
+  "rank": 1384,
+  "tc": 85,
+  "year": "2018",
+  "doi": "10.1111/bju.14019",
+  "title": "Increased accuracy of a novel mRNA-based urine test for bladder cancer surveillance",
+  "journal": "BJU INTERNATIONAL",
+  "type": "Article",
+  "bladder_t": true,
+  "tech_t": [],
+  "tech_a": [
+   "urine cytology",
+   "xpert bladder"
+  ],
+  "diag_s_t": [
+   "surveillance"
+  ],
+  "diag_s_a": [
+   "diagnostic accuracy",
+   "diagnostic performance",
+   "surveillance"
+  ],
+  "diag_w_t": [],
+  "mech_t": [],
+  "mech_a": [],
+  "treat_t": [],
+  "treat_a": [],
+  "tissue_t": [],
+  "tissue_a": [],
+  "invas_t": [],
+  "general_t": [],
+  "mrd": [],
+  "verdict": "IN"
+ },
+ {
+  "rank": 1408,
+  "tc": 84,
+  "year": "2018",
+  "doi": "10.2147/CMAR.S186108",
+  "title": "Urinary exosomal expression of long non-coding RNAs as diagnostic marker in bladder cancer",
+  "journal": "CANCER MANAGEMENT AND RESEARCH",
+  "type": "Article",
+  "bladder_t": true,
+  "tech_t": [
+   "exosomal"
+  ],
+  "tech_a": [
+   "exosome",
+   "exosomes",
+   "exosomal"
+  ],
+  "diag_s_t": [],
+  "diag_s_a": [],
+  "diag_w_t": [
+   "diagnostic"
+  ],
+  "mech_t": [],
+  "mech_a": [],
+  "treat_t": [],
+  "treat_a": [],
+  "tissue_t": [],
+  "tissue_a": [],
+  "invas_t": [],
+  "general_t": [],
+  "mrd": [],
+  "verdict": "IN"
+ },
+ {
+  "rank": 1439,
+  "tc": 83,
+  "year": "2017",
+  "doi": "10.1038/bjc.2017.210",
+  "title": "Non-invasive prediction of recurrence in bladder cancer by detecting somatic TERT promoter mutations in urine",
+  "journal": "BRITISH JOURNAL OF CANCER",
+  "type": "Article",
+  "bladder_t": true,
+  "tech_t": [
+   "tert promoter"
+  ],
+  "tech_a": [
+   "urine cytology",
+   "bta stat",
+   "tert promoter",
+   "telomerase"
+  ],
+  "diag_s_t": [],
+  "diag_s_a": [
+   "detection of",
+   "early detection",
+   "monitoring"
+  ],
+  "diag_w_t": [],
+  "mech_t": [],
+  "mech_a": [],
+  "treat_t": [],
+  "treat_a": [],
+  "tissue_t": [],
+  "tissue_a": [],
+  "invas_t": [],
+  "general_t": [],
+  "mrd": [],
+  "verdict": "IN"
+ },
+ {
+  "rank": 1423,
+  "tc": 83,
+  "year": "2022",
+  "doi": "10.1016/j.critrevonc.2022.103577",
+  "title": "Liquid biopsy in bladder cancer: State of the art and future perspectives",
+  "journal": "CRITICAL REVIEWS IN ONCOLOGY HEMATOLOGY",
+  "type": "Review",
+  "bladder_t": true,
+  "tech_t": [
+   "liquid biopsy"
+  ],
+  "tech_a": [
+   "urine cytology",
+   "urinary biomarker",
+   "liquid biopsy",
+   "immunocyt"
+  ],
+  "diag_s_t": [],
+  "diag_s_a": [
+   "detection of",
+   "surveillance"
+  ],
+  "diag_w_t": [],
+  "mech_t": [],
+  "mech_a": [],
+  "treat_t": [],
+  "treat_a": [],
+  "tissue_t": [],
+  "tissue_a": [],
+  "invas_t": [],
+  "general_t": [],
+  "mrd": [],
+  "verdict": "IN"
+ },
+ {
+  "rank": 1470,
+  "tc": 82,
+  "year": "2018",
+  "doi": "10.2214/AJR.17.18481",
+  "title": "The Diagnostic Performance of MRI for Detection of Lymph Node Metastasis in Bladder and Prostate Cancer: An Updated Systematic Review and Diagnostic Meta-Analysis",
+  "journal": "AMERICAN JOURNAL OF ROENTGENOLOGY",
+  "type": "Review",
+  "bladder_t": true,
+  "tech_t": [
+   "mri"
+  ],
+  "tech_a": [
+   "mri"
+  ],
+  "diag_s_t": [
+   "diagnostic performance",
+   "detection of"
+  ],
+  "diag_s_a": [
+   "diagnostic accuracy",
+   "diagnostic performance",
+   "detection of",
+   "sensitivity and specificity"
+  ],
+  "diag_w_t": [
+   "diagnostic",
+   "detection"
+  ],
+  "mech_t": [],
+  "mech_a": [],
+  "treat_t": [],
+  "treat_a": [],
+  "tissue_t": [],
+  "tissue_a": [],
+  "invas_t": [],
+  "general_t": [],
+  "mrd": [],
+  "verdict": "IN"
+ },
+ {
+  "rank": 1495,
+  "tc": 81,
+  "year": "2018",
+  "doi": "10.1016/j.ctrv.2018.05.012",
+  "title": "Novel urinary biomarkers for the detection of bladder cancer: A systematic review",
+  "journal": "CANCER TREATMENT REVIEWS",
+  "type": "Review",
+  "bladder_t": true,
+  "tech_t": [
+   "urinary biomarkers"
+  ],
+  "tech_a": [
+   "urinary cytology",
+   "urinary biomarkers",
+   "voided urine",
+   "survivin"
+  ],
+  "diag_s_t": [
+   "detection of"
+  ],
+  "diag_s_a": [
+   "diagnostic accuracy",
+   "detection of",
+   "surveillance",
+   "sensitivity and specificity"
+  ],
+  "diag_w_t": [
+   "detection"
+  ],
+  "mech_t": [],
+  "mech_a": [],
+  "treat_t": [],
+  "treat_a": [],
+  "tissue_t": [],
+  "tissue_a": [],
+  "invas_t": [],
+  "general_t": [],
+  "mrd": [],
+  "verdict": "IN"
+ },
+ {
+  "rank": 1552,
+  "tc": 79,
+  "year": "2020",
+  "doi": "10.1002/jmri.27090",
+  "title": "MRI of Bladder Cancer: Local and Nodal Staging",
+  "journal": "JOURNAL OF MAGNETIC RESONANCE IMAGING",
+  "type": "Article",
+  "bladder_t": true,
+  "tech_t": [
+   "mri"
+  ],
+  "tech_a": [
+   "mri",
+   "magnetic resonance imaging",
+   "multiparametric mri",
+   "mpmri",
+   "vi-rads",
+   "vesical imaging",
+   "diffusion-weighted",
+   "radiomics"
+  ],
+  "diag_s_t": [
+   "staging"
+  ],
+  "diag_s_a": [
+   "staging",
+   "monitoring"
+  ],
+  "diag_w_t": [],
+  "mech_t": [],
+  "mech_a": [],
+  "treat_t": [],
+  "treat_a": [
+   "cystectomy"
+  ],
+  "tissue_t": [],
+  "tissue_a": [],
+  "invas_t": [],
+  "general_t": [],
+  "mrd": [],
+  "verdict": "IN"
+ },
+ {
+  "rank": 1549,
+  "tc": 79,
+  "year": "2021",
+  "doi": "10.3390/jpm11030237",
+  "title": "Liquid Biopsy Biomarkers in Urine: A Route towards Molecular Diagnosis and Personalized Medicine of Bladder Cancer",
+  "journal": "JOURNAL OF PERSONALIZED MEDICINE",
+  "type": "Review",
+  "bladder_t": true,
+  "tech_t": [
+   "liquid biopsy"
+  ],
+  "tech_a": [
+   "urinary biomarkers",
+   "liquid biopsy",
+   "uroseek",
+   "dna methylation",
+   "tert promoter"
+  ],
+  "diag_s_t": [],
+  "diag_s_a": [
+   "surveillance",
+   "monitoring"
+  ],
+  "diag_w_t": [
+   "diagnosis"
+  ],
+  "mech_t": [],
+  "mech_a": [],
+  "treat_t": [],
+  "treat_a": [],
+  "tissue_t": [],
+  "tissue_a": [],
+  "invas_t": [],
+  "general_t": [],
+  "mrd": [],
+  "verdict": "IN"
+ },
+ {
+  "rank": 1639,
+  "tc": 77,
+  "year": "2016",
+  "doi": "10.1038/srep34446",
+  "title": "Proteome Profiling of Urinary Exosomes Identifies Alpha 1-Antitrypsin and H2B1K as Diagnostic and Prognostic Biomarkers for Urothelial Carcinoma",
+  "journal": "SCIENTIFIC REPORTS",
+  "type": "Article",
+  "bladder_t": true,
+  "tech_t": [
+   "exosomes"
+  ],
+  "tech_a": [
+   "survivin",
+   "exosome",
+   "exosomes"
+  ],
+  "diag_s_t": [],
+  "diag_s_a": [],
+  "diag_w_t": [
+   "diagnostic",
+   "prognostic"
+  ],
+  "mech_t": [],
+  "mech_a": [
+   "facilitate"
+  ],
+  "treat_t": [],
+  "treat_a": [],
+  "tissue_t": [],
+  "tissue_a": [
+   "immunohistochemical"
+  ],
+  "invas_t": [],
+  "general_t": [],
+  "mrd": [],
+  "verdict": "IN"
+ },
+ {
+  "rank": 1634,
+  "tc": 77,
+  "year": "2017",
+  "doi": "10.1016/j.juro.2016.12.096",
+  "title": "FGFR3, TERT and OTX1 as a Urinary Biomarker Combination for Surveillance of Patients with Bladder Cancer in a Large Prospective Multicenter Study",
+  "journal": "JOURNAL OF UROLOGY",
+  "type": "Article",
+  "bladder_t": true,
+  "tech_t": [
+   "urinary biomarker"
+  ],
+  "tech_a": [
+   "urinary biomarker",
+   "urinary marker",
+   "voided urine"
+  ],
+  "diag_s_t": [
+   "surveillance"
+  ],
+  "diag_s_a": [
+   "surveillance",
+   "recurrence detection"
+  ],
+  "diag_w_t": [],
+  "mech_t": [],
+  "mech_a": [],
+  "treat_t": [],
+  "treat_a": [],
+  "tissue_t": [],
+  "tissue_a": [],
+  "invas_t": [],
+  "general_t": [],
+  "mrd": [],
+  "verdict": "IN"
+ },
+ {
+  "rank": 1661,
+  "tc": 76,
+  "year": "2018",
+  "doi": "10.1016/j.cca.2017.12.009",
+  "title": "mRNA, microRNA and lncRNA as novel bladder tumor markers",
+  "journal": "CLINICA CHIMICA ACTA",
+  "type": "Review",
+  "bladder_t": true,
+  "tech_t": [
+   "microrna"
+  ],
+  "tech_a": [
+   "microrna"
+  ],
+  "diag_s_t": [],
+  "diag_s_a": [
+   "detection of",
+   "early detection",
+   "monitoring"
+  ],
+  "diag_w_t": [],
+  "mech_t": [],
+  "mech_a": [
+   "proliferation"
+  ],
+  "treat_t": [],
+  "treat_a": [],
+  "tissue_t": [],
+  "tissue_a": [],
+  "invas_t": [],
+  "general_t": [],
+  "mrd": [],
+  "verdict": "IN"
+ },
+ {
+  "rank": 1658,
+  "tc": 76,
+  "year": "2019",
+  "doi": "10.1111/cas.14000",
+  "title": "Diagnostic potential of TERT promoter and FGFR3 mutations in urinary cell-free DNA in upper tract urothelial carcinoma",
+  "journal": "CANCER SCIENCE",
+  "type": "Article",
+  "bladder_t": true,
+  "tech_t": [
+   "urinary cell-free",
+   "cell-free dna",
+   "tert promoter"
+  ],
+  "tech_a": [
+   "urine cytology",
+   "urinary cell-free",
+   "liquid biopsy",
+   "cell-free dna",
+   "cfdna",
+   "tert promoter"
+  ],
+  "diag_s_t": [],
+  "diag_s_a": [
+   "surveillance",
+   "diagnostic biomarker",
+   "staging"
+  ],
+  "diag_w_t": [
+   "diagnostic"
+  ],
+  "mech_t": [],
+  "mech_a": [],
+  "treat_t": [],
+  "treat_a": [],
+  "tissue_t": [],
+  "tissue_a": [],
+  "invas_t": [],
+  "general_t": [],
+  "mrd": [],
+  "verdict": "IN"
+ },
+ {
+  "rank": 1646,
+  "tc": 76,
+  "year": "2021",
+  "doi": "10.1371/journal.pmed.1003732",
+  "title": "Urine tumor DNA detection of minimal residual disease in muscle-invasive bladder cancer treated with curative-intent radical cystectomy: A cohort study",
+  "journal": "PLOS MEDICINE",
+  "type": "Article",
+  "bladder_t": true,
+  "tech_t": [
+   "urine tumor dna"
+  ],
+  "tech_a": [
+   "urine tumor dna",
+   "liquid biopsy",
+   "cell-free dna",
+   "cfdna"
+  ],
+  "diag_s_t": [
+   "detection of"
+  ],
+  "diag_s_a": [
+   "detection of"
+  ],
+  "diag_w_t": [
+   "detection"
+  ],
+  "mech_t": [],
+  "mech_a": [
+   "facilitate"
+  ],
+  "treat_t": [
+   "cystectomy"
+  ],
+  "treat_a": [
+   "chemotherapy",
+   "immunotherapy",
+   "cystectomy",
+   "neoadjuvant"
+  ],
+  "tissue_t": [],
+  "tissue_a": [
+   "tumor tissue"
+  ],
+  "invas_t": [],
+  "general_t": [],
+  "mrd": [
+   "minimal residual disease"
+  ],
+  "verdict": "IN"
+ },
+ {
+  "rank": 1682,
+  "tc": 75,
+  "year": "2020",
+  "doi": "10.2214/AJR.20.22763",
+  "title": "Overview of VI-RADS in Bladder Cancer",
+  "journal": "AMERICAN JOURNAL OF ROENTGENOLOGY",
+  "type": "Review",
+  "bladder_t": true,
+  "tech_t": [
+   "vi-rads"
+  ],
+  "tech_a": [
+   "mri",
+   "multiparametric mri",
+   "vi-rads",
+   "vesical imaging"
+  ],
+  "diag_s_t": [],
+  "diag_s_a": [
+   "staging"
+  ],
+  "diag_w_t": [],
+  "mech_t": [],
+  "mech_a": [],
+  "treat_t": [],
+  "treat_a": [],
+  "tissue_t": [],
+  "tissue_a": [],
+  "invas_t": [],
+  "general_t": [
+   "overview of"
+  ],
+  "mrd": [],
+  "verdict": "IN"
+ },
+ {
+  "rank": 1720,
+  "tc": 74,
+  "year": "2018",
+  "doi": "10.1002/mp.13240",
+  "title": "Multiregion segmentation of bladder cancer structures in MRI with progressive dilated convolutional networks",
+  "journal": "MEDICAL PHYSICS",
+  "type": "Article",
+  "bladder_t": true,
+  "tech_t": [
+   "mri"
+  ],
+  "tech_a": [
+   "mri",
+   "radiomics",
+   "deep learning"
+  ],
+  "diag_s_t": [],
+  "diag_s_a": [],
+  "diag_w_t": [],
+  "mech_t": [],
+  "mech_a": [],
+  "treat_t": [],
+  "treat_a": [],
+  "tissue_t": [],
+  "tissue_a": [],
+  "invas_t": [],
+  "general_t": [],
+  "mrd": [],
+  "verdict": "IN"
+ },
+ {
+  "rank": 1721,
+  "tc": 74,
+  "year": "2018",
+  "doi": "10.1111/bju.14366",
+  "title": "Diagnostic accuracy of magnetic resonance imaging for tumour staging of bladder cancer: systematic review and meta-analysis",
+  "journal": "BJU INTERNATIONAL",
+  "type": "Review",
+  "bladder_t": true,
+  "tech_t": [
+   "magnetic resonance imaging"
+  ],
+  "tech_a": [
+   "mri",
+   "magnetic resonance imaging"
+  ],
+  "diag_s_t": [
+   "diagnostic accuracy",
+   "staging"
+  ],
+  "diag_s_a": [
+   "diagnostic accuracy",
+   "staging"
+  ],
+  "diag_w_t": [
+   "diagnostic"
+  ],
+  "mech_t": [],
+  "mech_a": [],
+  "treat_t": [],
+  "treat_a": [],
+  "tissue_t": [],
+  "tissue_a": [],
+  "invas_t": [],
+  "general_t": [],
+  "mrd": [],
+  "verdict": "IN"
+ },
+ {
+  "rank": 1723,
+  "tc": 74,
+  "year": "2018",
+  "doi": "10.3390/ijms19092514",
+  "title": "Liquid Biopsy Biomarkers in Bladder Cancer: A Current Need for Patient Diagnosis and Monitoring",
+  "journal": "INTERNATIONAL JOURNAL OF MOLECULAR SCIENCES",
+  "type": "Review",
+  "bladder_t": true,
+  "tech_t": [
+   "liquid biopsy"
+  ],
+  "tech_a": [
+   "urine cytology",
+   "voided urine",
+   "liquid biopsy",
+   "extracellular vesicles",
+   "microrna"
+  ],
+  "diag_s_t": [
+   "monitoring"
+  ],
+  "diag_s_a": [
+   "surveillance",
+   "monitoring"
+  ],
+  "diag_w_t": [
+   "diagnosis"
+  ],
+  "mech_t": [],
+  "mech_a": [],
+  "treat_t": [],
+  "treat_a": [],
+  "tissue_t": [],
+  "tissue_a": [],
+  "invas_t": [],
+  "general_t": [],
+  "mrd": [],
+  "verdict": "IN"
+ },
+ {
+  "rank": 1715,
+  "tc": 74,
+  "year": "2019",
+  "doi": "10.1007/s00330-019-06222-8",
+  "title": "Radiomics analysis of multiparametric MRI for the preoperative evaluation of pathological grade in bladder cancer tumors",
+  "journal": "EUROPEAN RADIOLOGY",
+  "type": "Article",
+  "bladder_t": true,
+  "tech_t": [
+   "mri",
+   "multiparametric mri",
+   "radiomics"
+  ],
+  "tech_a": [
+   "mri",
+   "magnetic resonance imaging",
+   "multiparametric mri",
+   "diffusion-weighted",
+   "radiomics"
+  ],
+  "diag_s_t": [],
+  "diag_s_a": [],
+  "diag_w_t": [],
+  "mech_t": [],
+  "mech_a": [],
+  "treat_t": [],
+  "treat_a": [],
+  "tissue_t": [],
+  "tissue_a": [],
+  "invas_t": [],
+  "general_t": [],
+  "mrd": [],
+  "verdict": "IN"
+ },
+ {
+  "rank": 1712,
+  "tc": 74,
+  "year": "2020",
+  "doi": "10.1016/j.ebiom.2020.102643",
+  "title": "Urinary TERT promoter mutations are detectable up to 10 years prior to clinical diagnosis of bladder cancer: Evidence from the Golestan Cohort Study",
+  "journal": "EBIOMEDICINE",
+  "type": "Article",
+  "bladder_t": true,
+  "tech_t": [
+   "urinary tert",
+   "tert promoter"
+  ],
+  "tech_a": [
+   "urinary biomarker",
+   "urinary biomarkers",
+   "urinary tert",
+   "tert promoter",
+   "telomerase"
+  ],
+  "diag_s_t": [],
+  "diag_s_a": [
+   "detection of",
+   "early detection",
+   "screening"
+  ],
+  "diag_w_t": [
+   "diagnosis"
+  ],
+  "mech_t": [],
+  "mech_a": [],
+  "treat_t": [],
+  "treat_a": [],
+  "tissue_t": [],
+  "tissue_a": [],
+  "invas_t": [],
+  "general_t": [],
+  "mrd": [],
+  "verdict": "IN"
+ },
+ {
+  "rank": 1801,
+  "tc": 72,
+  "year": "2016",
+  "doi": "10.1038/bjc.2015.472",
+  "title": "A urinary microRNA signature can predict the presence of bladder urothelial carcinoma in patients undergoing surveillance",
+  "journal": "BRITISH JOURNAL OF CANCER",
+  "type": "Article",
+  "bladder_t": true,
+  "tech_t": [
+   "urinary microrna",
+   "microrna"
+  ],
+  "tech_a": [
+   "urinary microrna",
+   "machine learning",
+   "microrna",
+   "mirna"
+  ],
+  "diag_s_t": [
+   "surveillance"
+  ],
+  "diag_s_a": [
+   "detection of",
+   "surveillance"
+  ],
+  "diag_w_t": [
+   "predict"
+  ],
+  "mech_t": [],
+  "mech_a": [],
+  "treat_t": [],
+  "treat_a": [],
+  "tissue_t": [],
+  "tissue_a": [],
+  "invas_t": [],
+  "general_t": [],
+  "mrd": [],
+  "verdict": "IN"
+ },
+ {
+  "rank": 1784,
+  "tc": 72,
+  "year": "2019",
+  "doi": "10.1021/acssensors.9b00927",
+  "title": "Highly Sensitive Detection of Bladder Cancer-Related miRNA in Urine Using Time-Gated Luminescent Biochip",
+  "journal": "ACS SENSORS",
+  "type": "Article",
+  "bladder_t": true,
+  "tech_t": [
+   "mirna"
+  ],
+  "tech_a": [
+   "urinary mirna",
+   "telomerase",
+   "mirna"
+  ],
+  "diag_s_t": [
+   "detection of"
+  ],
+  "diag_s_a": [
+   "detection of",
+   "sensitivity and specificity",
+   "monitoring"
+  ],
+  "diag_w_t": [
+   "detection"
+  ],
+  "mech_t": [],
+  "mech_a": [],
+  "treat_t": [],
+  "treat_a": [],
+  "tissue_t": [],
+  "tissue_a": [],
+  "invas_t": [],
+  "general_t": [],
+  "mrd": [],
+  "verdict": "IN"
+ },
+ {
+  "rank": 1788,
+  "tc": 72,
+  "year": "2019",
+  "doi": "10.1259/bjr.20190401",
+  "title": "Multiparametric MRI in differentiation between muscle invasive and non-muscle invasive urinary bladder cancer with vesical imaging reporting and data system (VI-RADS) application",
+  "journal": "BRITISH JOURNAL OF RADIOLOGY",
+  "type": "Article",
+  "bladder_t": true,
+  "tech_t": [
+   "mri",
+   "multiparametric mri",
+   "vi-rads",
+   "vesical imaging"
+  ],
+  "tech_a": [
+   "mri",
+   "multiparametric mri",
+   "vi-rads",
+   "vesical imaging",
+   "diffusion-weighted"
+  ],
+  "diag_s_t": [],
+  "diag_s_a": [
+   "diagnostic accuracy",
+   "diagnostic performance",
+   "detection of"
+  ],
+  "diag_w_t": [],
+  "mech_t": [],
+  "mech_a": [],
+  "treat_t": [],
+  "treat_a": [],
+  "tissue_t": [],
+  "tissue_a": [
+   "histopathological"
+  ],
+  "invas_t": [],
+  "general_t": [],
+  "mrd": [],
+  "verdict": "IN"
+ },
+ {
+  "rank": 1850,
+  "tc": 70,
+  "year": "2020",
+  "doi": "10.1016/j.microc.2020.104966",
+  "title": "Fluorescence immunoassay based on nitrogen doped carbon dots for the detection of human nuclear matrix protein NMP22 as biomarker for early stage diagnosis of bladder cancer",
+  "journal": "MICROCHEMICAL JOURNAL",
+  "type": "Article",
+  "bladder_t": true,
+  "tech_t": [
+   "nmp22"
+  ],
+  "tech_a": [
+   "nmp22"
+  ],
+  "diag_s_t": [
+   "detection of"
+  ],
+  "diag_s_a": [
+   "detection of"
+  ],
+  "diag_w_t": [
+   "diagnosis",
+   "detection"
+  ],
+  "mech_t": [],
+  "mech_a": [],
+  "treat_t": [],
+  "treat_a": [],
+  "tissue_t": [],
+  "tissue_a": [],
+  "invas_t": [],
+  "general_t": [],
+  "mrd": [],
+  "verdict": "IN"
+ },
+ {
+  "rank": 1856,
+  "tc": 70,
+  "year": "2020",
+  "doi": "10.1186/s40169-020-0257-2",
+  "title": "Detection of bladder cancer using urinary cell-free DNA and cellular DNA",
+  "journal": "CLINICAL AND TRANSLATIONAL MEDICINE",
+  "type": "Article",
+  "bladder_t": true,
+  "tech_t": [
+   "urinary cell-free",
+   "cell-free dna"
+  ],
+  "tech_a": [
+   "urinary cell-free",
+   "cell-free dna",
+   "cfdna"
+  ],
+  "diag_s_t": [
+   "detection of"
+  ],
+  "diag_s_a": [
+   "detection of"
+  ],
+  "diag_w_t": [
+   "detection"
+  ],
+  "mech_t": [],
+  "mech_a": [],
+  "treat_t": [],
+  "treat_a": [],
+  "tissue_t": [],
+  "tissue_a": [],
+  "invas_t": [],
+  "general_t": [],
+  "mrd": [],
+  "verdict": "IN"
+ },
+ {
+  "rank": 1904,
+  "tc": 69,
+  "year": "2017",
+  "doi": "10.18632/oncotarget.18521",
+  "title": "The prognostic and diagnostic value of circulating tumor cells in bladder cancer and upper tract urothelial carcinoma: a meta-analysis of 30 published studies",
+  "journal": "ONCOTARGET",
+  "type": "Article",
+  "bladder_t": true,
+  "tech_t": [
+   "circulating tumor cells"
+  ],
+  "tech_a": [
+   "urinary biomarkers",
+   "circulating tumor cells"
+  ],
+  "diag_s_t": [
+   "diagnostic value"
+  ],
+  "diag_s_a": [
+   "diagnostic value",
+   "sensitivity and specificity"
+  ],
+  "diag_w_t": [
+   "diagnostic",
+   "prognostic"
+  ],
+  "mech_t": [],
+  "mech_a": [],
+  "treat_t": [],
+  "treat_a": [],
+  "tissue_t": [],
+  "tissue_a": [],
+  "invas_t": [],
+  "general_t": [],
+  "mrd": [],
+  "verdict": "IN"
+ },
+ {
+  "rank": 1893,
+  "tc": 69,
+  "year": "2019",
+  "doi": "10.1002/cncr.32490",
+  "title": "Development of a noninvasive tool to preoperatively evaluate the muscular invasiveness of bladder cancer using a radiomics approach",
+  "journal": "CANCER",
+  "type": "Article",
+  "bladder_t": true,
+  "tech_t": [
+   "radiomics"
+  ],
+  "tech_a": [
+   "mri",
+   "magnetic resonance imaging",
+   "radiomic",
+   "radiomics"
+  ],
+  "diag_s_t": [],
+  "diag_s_a": [
+   "diagnostic accuracy"
+  ],
+  "diag_w_t": [],
+  "mech_t": [],
+  "mech_a": [],
+  "treat_t": [],
+  "treat_a": [],
+  "tissue_t": [],
+  "tissue_a": [],
+  "invas_t": [],
+  "general_t": [],
+  "mrd": [],
+  "verdict": "IN"
+ },
+ {
+  "rank": 1883,
+  "tc": 69,
+  "year": "2020",
+  "doi": "10.3390/cancers12102994",
+  "title": "Systematic Review and Meta-Analysis of Vesical Imaging-Reporting and Data System (VI-RADS) Inter-Observer Reliability: An Added Value for Muscle Invasive Bladder Cancer Detection",
+  "journal": "CANCERS",
+  "type": "Review",
+  "bladder_t": true,
+  "tech_t": [
+   "vi-rads",
+   "vesical imaging"
+  ],
+  "tech_a": [
+   "mri",
+   "magnetic resonance imaging",
+   "mpmri",
+   "vi-rads",
+   "vesical imaging"
+  ],
+  "diag_s_t": [],
+  "diag_s_a": [
+   "staging"
+  ],
+  "diag_w_t": [
+   "detection"
+  ],
+  "mech_t": [],
+  "mech_a": [],
+  "treat_t": [],
+  "treat_a": [],
+  "tissue_t": [],
+  "tissue_a": [],
+  "invas_t": [],
+  "general_t": [],
+  "mrd": [],
+  "verdict": "IN"
+ },
+ {
+  "rank": 1945,
+  "tc": 68,
+  "year": "2018",
+  "doi": "10.1074/mcp.RA118.000562",
+  "title": "Quantitative Proteomic Analysis Identifies AHNAK (Neuroblast Differentiation-associated Protein AHNAK) as a Novel Candidate Biomarker for Bladder Urothelial Carcinoma Diagnosis by Liquid-based Cytology",
+  "journal": "MOLECULAR \\& CELLULAR PROTEOMICS",
+  "type": "Article",
+  "bladder_t": true,
+  "tech_t": [
+   "proteomic"
+  ],
+  "tech_a": [
+   "urine cytology",
+   "urinary cytology",
+   "proteomic",
+   "proteomics"
+  ],
+  "diag_s_t": [],
+  "diag_s_a": [
+   "diagnostic accuracy"
+  ],
+  "diag_w_t": [
+   "diagnosis"
+  ],
+  "mech_t": [],
+  "mech_a": [],
+  "treat_t": [],
+  "treat_a": [],
+  "tissue_t": [],
+  "tissue_a": [
+   "immunohistochemical",
+   "tumor tissue"
+  ],
+  "invas_t": [],
+  "general_t": [],
+  "mrd": [],
+  "verdict": "IN"
+ },
+ {
+  "rank": 2003,
+  "tc": 67,
+  "year": "2016",
+  "doi": "10.1186/s12885-016-2748-5",
+  "title": "Promoter hypermethylation of HS3ST2, SEPTIN9 and SLIT2 combined with FGFR3 mutations as a sensitive/specific urinary assay for diagnosis and surveillance in patients with low or high-risk non-muscle-invasive bladder cancer",
+  "journal": "BMC CANCER",
+  "type": "Article",
+  "bladder_t": true,
+  "tech_t": [],
+  "tech_a": [
+   "voided urine",
+   "urine dna",
+   "urine-based",
+   "dna methylation"
+  ],
+  "diag_s_t": [
+   "surveillance"
+  ],
+  "diag_s_a": [
+   "diagnostic accuracy",
+   "screening",
+   "surveillance",
+   "risk stratification"
+  ],
+  "diag_w_t": [
+   "diagnosis"
+  ],
+  "mech_t": [],
+  "mech_a": [],
+  "treat_t": [],
+  "treat_a": [],
+  "tissue_t": [],
+  "tissue_a": [],
+  "invas_t": [],
+  "general_t": [],
+  "mrd": [],
+  "verdict": "IN"
+ },
+ {
+  "rank": 2006,
+  "tc": 67,
+  "year": "2016",
+  "doi": "10.1371/journal.pone.0149756",
+  "title": "Multiplex PCR and Next Generation Sequencing for the Non-Invasive Detection of Bladder Cancer",
+  "journal": "PLOS ONE",
+  "type": "Article",
+  "bladder_t": true,
+  "tech_t": [],
+  "tech_a": [
+   "voided urine",
+   "urinary dna",
+   "urine-based",
+   "tert promoter"
+  ],
+  "diag_s_t": [
+   "detection of",
+   "non-invasive detection"
+  ],
+  "diag_s_a": [
+   "detection of",
+   "non-invasive detection",
+   "surveillance",
+   "biomarker panel"
+  ],
+  "diag_w_t": [
+   "detection"
+  ],
+  "mech_t": [],
+  "mech_a": [],
+  "treat_t": [],
+  "treat_a": [],
+  "tissue_t": [],
+  "tissue_a": [],
+  "invas_t": [],
+  "general_t": [],
+  "mrd": [],
+  "verdict": "IN"
+ },
+ {
+  "rank": 1973,
+  "tc": 67,
+  "year": "2022",
+  "doi": "10.1007/s00261-021-03365-5",
+  "title": "Vesical Imaging-Reporting and Data System (VI-RADS) for assessment of response to systemic therapy for bladder cancer: preliminary report",
+  "journal": "ABDOMINAL RADIOLOGY",
+  "type": "Article",
+  "bladder_t": true,
+  "tech_t": [
+   "vi-rads",
+   "vesical imaging"
+  ],
+  "tech_a": [
+   "mri",
+   "magnetic resonance imaging",
+   "mpmri",
+   "vi-rads",
+   "vesical imaging"
+  ],
+  "diag_s_t": [],
+  "diag_s_a": [
+   "surveillance",
+   "staging"
+  ],
+  "diag_w_t": [],
+  "mech_t": [],
+  "mech_a": [],
+  "treat_t": [],
+  "treat_a": [
+   "chemotherapy",
+   "cystectomy",
+   "neoadjuvant"
+  ],
+  "tissue_t": [],
+  "tissue_a": [],
+  "invas_t": [],
+  "general_t": [],
+  "mrd": [],
+  "verdict": "IN"
+ },
+ {
+  "rank": 2027,
+  "tc": 66,
+  "year": "2019",
+  "doi": "10.3389/fgene.2019.01237",
+  "title": "Validation of a Novel, Sensitive, and Specific Urine-Based Test for Recurrence Surveillance of Patients With Non-Muscle-Invasive Bladder Cancer in a Comprehensive Multicenter Study",
+  "journal": "FRONTIERS IN GENETICS",
+  "type": "Article",
+  "bladder_t": true,
+  "tech_t": [
+   "urine-based"
+  ],
+  "tech_a": [
+   "urine cytology",
+   "urinary test",
+   "voided urine",
+   "urine-based",
+   "urovysion",
+   "uromonitor",
+   "tert promoter"
+  ],
+  "diag_s_t": [
+   "surveillance"
+  ],
+  "diag_s_a": [
+   "detection of",
+   "screening",
+   "surveillance",
+   "recurrence detection"
+  ],
+  "diag_w_t": [],
+  "mech_t": [],
+  "mech_a": [],
+  "treat_t": [],
+  "treat_a": [],
+  "tissue_t": [],
+  "tissue_a": [],
+  "invas_t": [],
+  "general_t": [],
+  "mrd": [],
+  "verdict": "IN"
+ },
+ {
+  "rank": 2030,
+  "tc": 66,
+  "year": "2019",
+  "doi": "10.1364/BOE.10.003533",
+  "title": "Identifying non-muscle-invasive and muscle-invasive bladder cancer based on blood serum surface-enhanced Raman spectroscopy",
+  "journal": "BIOMEDICAL OPTICS EXPRESS",
+  "type": "Article",
+  "bladder_t": true,
+  "tech_t": [
+   "raman spectroscopy"
+  ],
+  "tech_a": [
+   "raman spectroscopy",
+   "sers"
+  ],
+  "diag_s_t": [],
+  "diag_s_a": [
+   "diagnostic accuracy"
+  ],
+  "diag_w_t": [],
+  "mech_t": [],
+  "mech_a": [],
+  "treat_t": [],
+  "treat_a": [],
+  "tissue_t": [],
+  "tissue_a": [
+   "histopathology"
+  ],
+  "invas_t": [],
+  "general_t": [],
+  "mrd": [],
+  "verdict": "IN"
+ },
+ {
+  "rank": 2020,
+  "tc": 66,
+  "year": "2020",
+  "doi": "10.1002/smll.202002517",
+  "title": "An Electrodeposited MXene-Ti3C2TxNanosheets Functionalized by Task-Specific Ionic Liquid for Simultaneous and Multiplexed Detection of Bladder Cancer Biomarkers",
+  "journal": "SMALL",
+  "type": "Article",
+  "bladder_t": true,
+  "tech_t": [],
+  "tech_a": [
+   "biosensor"
+  ],
+  "diag_s_t": [
+   "detection of"
+  ],
+  "diag_s_a": [
+   "detection of"
+  ],
+  "diag_w_t": [
+   "detection"
+  ],
+  "mech_t": [],
+  "mech_a": [],
+  "treat_t": [],
+  "treat_a": [],
+  "tissue_t": [],
+  "tissue_a": [],
+  "invas_t": [],
+  "general_t": [],
+  "mrd": [],
+  "verdict": "IN"
+ },
+ {
+  "rank": 2022,
+  "tc": 66,
+  "year": "2020",
+  "doi": "10.1007/s00330-020-06796-8",
+  "title": "Elaboration of a multisequence MRI-based radiomics signature for the preoperative prediction of the muscle-invasive status of bladder cancer: a double-center study",
+  "journal": "EUROPEAN RADIOLOGY",
+  "type": "Article",
+  "bladder_t": true,
+  "tech_t": [
+   "mri",
+   "radiomics"
+  ],
+  "tech_a": [
+   "mri",
+   "diffusion-weighted",
+   "radiomics"
+  ],
+  "diag_s_t": [
+   "preoperative prediction"
+  ],
+  "diag_s_a": [
+   "preoperative prediction"
+  ],
+  "diag_w_t": [],
+  "mech_t": [],
+  "mech_a": [],
+  "treat_t": [],
+  "treat_a": [],
+  "tissue_t": [],
+  "tissue_a": [],
+  "invas_t": [],
+  "general_t": [],
+  "mrd": [],
+  "verdict": "IN"
+ },
+ {
+  "rank": 2017,
+  "tc": 66,
+  "year": "2021",
+  "doi": "10.1007/s00330-021-07765-5",
+  "title": "The validity, reliability, and reviewer acceptance of VI-RADS in assessing muscle invasion by bladder cancer: a multicenter prospective study",
+  "journal": "EUROPEAN RADIOLOGY",
+  "type": "Article",
+  "bladder_t": true,
+  "tech_t": [
+   "vi-rads"
+  ],
+  "tech_a": [
+   "mri",
+   "magnetic resonance imaging",
+   "multiparametric mri",
+   "vi-rads"
+  ],
+  "diag_s_t": [],
+  "diag_s_a": [],
+  "diag_w_t": [],
+  "mech_t": [],
+  "mech_a": [],
+  "treat_t": [],
+  "treat_a": [],
+  "tissue_t": [],
+  "tissue_a": [
+   "histopathology"
+  ],
+  "invas_t": [],
+  "general_t": [],
+  "mrd": [],
+  "verdict": "IN"
+ },
+ {
+  "rank": 2019,
+  "tc": 66,
+  "year": "2021",
+  "doi": "10.1007/s00330-020-07473-6",
+  "title": "Bladder cancer: do we need contrast injection for MRI assessment of muscle invasion? A prospective multi-reader VI-RADS approach",
+  "journal": "EUROPEAN RADIOLOGY",
+  "type": "Article",
+  "bladder_t": true,
+  "tech_t": [
+   "mri",
+   "vi-rads"
+  ],
+  "tech_a": [
+   "mri",
+   "magnetic resonance imaging",
+   "multiparametric mri",
+   "vi-rads",
+   "diffusion-weighted"
+  ],
+  "diag_s_t": [],
+  "diag_s_a": [
+   "diagnostic accuracy",
+   "diagnostic performance",
+   "detection of",
+   "sensitivity and specificity"
+  ],
+  "diag_w_t": [],
+  "mech_t": [],
+  "mech_a": [],
+  "treat_t": [],
+  "treat_a": [],
+  "tissue_t": [],
+  "tissue_a": [],
+  "invas_t": [],
+  "general_t": [],
+  "mrd": [],
+  "verdict": "IN"
+ },
+ {
+  "rank": 2106,
+  "tc": 65,
+  "year": "2016",
+  "doi": "10.1016/j.euf.2016.04.010",
+  "title": "Improving Staging in Bladder Cancer: The Increasing Role of Multiparametric Magnetic Resonance Imaging",
+  "journal": "EUROPEAN UROLOGY FOCUS",
+  "type": "Review",
+  "bladder_t": true,
+  "tech_t": [
+   "magnetic resonance imaging"
+  ],
+  "tech_a": [
+   "mri",
+   "magnetic resonance imaging",
+   "multiparametric mri",
+   "mpmri",
+   "diffusion-weighted"
+  ],
+  "diag_s_t": [
+   "staging"
+  ],
+  "diag_s_a": [
+   "detection of",
+   "staging",
+   "monitoring"
+  ],
+  "diag_w_t": [],
+  "mech_t": [],
+  "mech_a": [],
+  "treat_t": [],
+  "treat_a": [
+   "chemotherapy"
+  ],
+  "tissue_t": [],
+  "tissue_a": [],
+  "invas_t": [],
+  "general_t": [],
+  "mrd": [],
+  "verdict": "IN"
+ },
+ {
+  "rank": 2111,
+  "tc": 65,
+  "year": "2016",
+  "doi": "10.1016/j.ucl.2015.08.005",
+  "title": "Current Status of Urinary Biomarkers for Detection and Surveillance of Bladder Cancer",
+  "journal": "UROLOGIC CLINICS OF NORTH AMERICA",
+  "type": "Article",
+  "bladder_t": true,
+  "tech_t": [
+   "urinary biomarkers"
+  ],
+  "tech_a": [
+   "urinary biomarkers",
+   "urine-based"
+  ],
+  "diag_s_t": [
+   "surveillance"
+  ],
+  "diag_s_a": [
+   "surveillance"
+  ],
+  "diag_w_t": [
+   "detection"
+  ],
+  "mech_t": [],
+  "mech_a": [],
+  "treat_t": [],
+  "treat_a": [],
+  "tissue_t": [],
+  "tissue_a": [],
+  "invas_t": [],
+  "general_t": [],
+  "mrd": [],
+  "verdict": "IN"
+ },
+ {
+  "rank": 2077,
+  "tc": 65,
+  "year": "2019",
+  "doi": "10.1007/s00345-018-2439-8",
+  "title": "Comparative sensitivity and specificity of imaging modalities in staging bladder cancer prior to radical cystectomy: a systematic review and meta-analysis",
+  "journal": "WORLD JOURNAL OF UROLOGY",
+  "type": "Review",
+  "bladder_t": true,
+  "tech_t": [],
+  "tech_a": [
+   "mri",
+   "magnetic resonance imaging",
+   "pet/ct",
+   "computed tomography"
+  ],
+  "diag_s_t": [
+   "sensitivity and specificity",
+   "staging"
+  ],
+  "diag_s_a": [
+   "detection of",
+   "sensitivity and specificity",
+   "staging"
+  ],
+  "diag_w_t": [
+   "sensitivity",
+   "specificity"
+  ],
+  "mech_t": [],
+  "mech_a": [],
+  "treat_t": [
+   "cystectomy"
+  ],
+  "treat_a": [
+   "chemotherapy",
+   "cystectomy",
+   "neoadjuvant"
+  ],
+  "tissue_t": [],
+  "tissue_a": [
+   "histopathology"
+  ],
+  "invas_t": [],
+  "general_t": [],
+  "mrd": [],
+  "verdict": "IN"
+ },
+ {
+  "rank": 2066,
+  "tc": 65,
+  "year": "2020",
+  "doi": "10.1007/s11426-020-9743-2",
+  "title": "Construction of MoS2 field effect transistor sensor array for the detection of bladder cancer biomarkers",
+  "journal": "SCIENCE CHINA-CHEMISTRY",
+  "type": "Article",
+  "bladder_t": true,
+  "tech_t": [],
+  "tech_a": [
+   "biosensor",
+   "nmp22"
+  ],
+  "diag_s_t": [
+   "detection of"
+  ],
+  "diag_s_a": [
+   "detection of"
+  ],
+  "diag_w_t": [
+   "detection"
+  ],
+  "mech_t": [],
+  "mech_a": [],
+  "treat_t": [],
+  "treat_a": [],
+  "tissue_t": [],
+  "tissue_a": [],
+  "invas_t": [],
+  "general_t": [],
+  "mrd": [],
+  "verdict": "IN"
+ },
+ {
+  "rank": 2046,
+  "tc": 65,
+  "year": "2023",
+  "doi": "10.3390/diagnostics13132308",
+  "title": "Artificial Intelligence in the Advanced Diagnosis of Bladder Cancer-Comprehensive Literature Review and Future Advancement",
+  "journal": "DIAGNOSTICS",
+  "type": "Review",
+  "bladder_t": true,
+  "tech_t": [
+   "artificial intelligence"
+  ],
+  "tech_a": [
+   "radiomics",
+   "deep learning",
+   "machine learning",
+   "artificial intelligence"
+  ],
+  "diag_s_t": [],
+  "diag_s_a": [],
+  "diag_w_t": [
+   "diagnosis"
+  ],
+  "mech_t": [],
+  "mech_a": [],
+  "treat_t": [],
+  "treat_a": [],
+  "tissue_t": [],
+  "tissue_a": [],
+  "invas_t": [],
+  "general_t": [],
+  "mrd": [],
+  "verdict": "IN"
+ },
+ {
+  "rank": 2149,
+  "tc": 64,
+  "year": "2017",
+  "doi": "10.1007/s11548-017-1522-8",
+  "title": "Three-dimensional texture features from intensity and high-order derivative maps for the discrimination between bladder tumors and wall tissues via MRI",
+  "journal": "INTERNATIONAL JOURNAL OF COMPUTER ASSISTED RADIOLOGY AND SURGERY",
+  "type": "Article",
+  "bladder_t": true,
+  "tech_t": [
+   "mri"
+  ],
+  "tech_a": [
+   "mri"
+  ],
+  "diag_s_t": [],
+  "diag_s_a": [
+   "staging"
+  ],
+  "diag_w_t": [],
+  "mech_t": [],
+  "mech_a": [],
+  "treat_t": [],
+  "treat_a": [],
+  "tissue_t": [],
+  "tissue_a": [],
+  "invas_t": [],
+  "general_t": [],
+  "mrd": [],
+  "verdict": "IN"
+ },
+ {
+  "rank": 2139,
+  "tc": 64,
+  "year": "2018",
+  "doi": "10.3389/fonc.2018.00362",
+  "title": "Urinary Markers in Bladder Cancer: An Update",
+  "journal": "FRONTIERS IN ONCOLOGY",
+  "type": "Review",
+  "bladder_t": true,
+  "tech_t": [
+   "urinary markers"
+  ],
+  "tech_a": [
+   "urinary biomarkers",
+   "urinary markers",
+   "urine-based",
+   "liquid biopsy",
+   "cell-free dna",
+   "circulating tumor cells",
+   "dna methylation",
+   "tert promoter",
+   "proteomic",
+   "exosomes",
+   "extracellular vesicles",
+   "microrna",
+   "mirna"
+  ],
+  "diag_s_t": [],
+  "diag_s_a": [
+   "diagnostic accuracy",
+   "surveillance",
+   "monitoring"
+  ],
+  "diag_w_t": [],
+  "mech_t": [],
+  "mech_a": [],
+  "treat_t": [],
+  "treat_a": [],
+  "tissue_t": [],
+  "tissue_a": [],
+  "invas_t": [],
+  "general_t": [],
+  "mrd": [],
+  "verdict": "IN"
+ },
+ {
+  "rank": 2140,
+  "tc": 64,
+  "year": "2018",
+  "doi": "10.14348/molcells.2018.2110",
+  "title": "Altered Proteome of Extracellular Vesicles Derived from Bladder Cancer Patients Urine",
+  "journal": "MOLECULES AND CELLS",
+  "type": "Article",
+  "bladder_t": true,
+  "tech_t": [
+   "extracellular vesicles"
+  ],
+  "tech_a": [
+   "proteomic",
+   "proteomics",
+   "exosomes",
+   "extracellular vesicles"
+  ],
+  "diag_s_t": [],
+  "diag_s_a": [],
+  "diag_w_t": [],
+  "mech_t": [],
+  "mech_a": [],
+  "treat_t": [],
+  "treat_a": [],
+  "tissue_t": [],
+  "tissue_a": [],
+  "invas_t": [],
+  "general_t": [],
+  "mrd": [],
+  "verdict": "IN"
+ },
+ {
+  "rank": 2125,
+  "tc": 64,
+  "year": "2021",
+  "doi": "10.1111/cas.14881",
+  "title": "Proteomic analysis of urinary and tissue-exudative extracellular vesicles to discover novel bladder cancer biomarkers",
+  "journal": "CANCER SCIENCE",
+  "type": "Article",
+  "bladder_t": true,
+  "tech_t": [
+   "proteomic",
+   "extracellular vesicles"
+  ],
+  "tech_a": [
+   "urinary biomarker",
+   "proteomic",
+   "proteomics",
+   "exosome",
+   "exosomes",
+   "extracellular vesicle",
+   "extracellular vesicles"
+  ],
+  "diag_s_t": [],
+  "diag_s_a": [
+   "detection of",
+   "monitoring"
+  ],
+  "diag_w_t": [],
+  "mech_t": [],
+  "mech_a": [],
+  "treat_t": [],
+  "treat_a": [],
+  "tissue_t": [],
+  "tissue_a": [],
+  "invas_t": [],
+  "general_t": [],
+  "mrd": [],
+  "verdict": "IN"
+ },
+ {
+  "rank": 2170,
+  "tc": 63,
+  "year": "2019",
+  "doi": "10.1002/jmri.26749",
+  "title": "A predictive nomogram for individualized recurrence stratification of bladder cancer using multiparametric MRI and clinical risk factors",
+  "journal": "JOURNAL OF MAGNETIC RESONANCE IMAGING",
+  "type": "Article",
+  "bladder_t": true,
+  "tech_t": [
+   "mri",
+   "multiparametric mri"
+  ],
+  "tech_a": [
+   "mri",
+   "multiparametric mri",
+   "diffusion-weighted",
+   "radiomics"
+  ],
+  "diag_s_t": [],
+  "diag_s_a": [
+   "preoperative prediction"
+  ],
+  "diag_w_t": [],
+  "mech_t": [],
+  "mech_a": [],
+  "treat_t": [],
+  "treat_a": [],
+  "tissue_t": [],
+  "tissue_a": [],
+  "invas_t": [],
+  "general_t": [],
+  "mrd": [],
+  "verdict": "IN"
+ },
+ {
+  "rank": 2171,
+  "tc": 63,
+  "year": "2019",
+  "doi": "10.3389/fonc.2019.01266",
+  "title": "Urine Biopsy-Liquid Gold for Molecular Detection and Surveillance of Bladder Cancer",
+  "journal": "FRONTIERS IN ONCOLOGY",
+  "type": "Review",
+  "bladder_t": true,
+  "tech_t": [],
+  "tech_a": [
+   "urine dna",
+   "liquid biopsy",
+   "cell-free dna",
+   "cfdna",
+   "circulating tumor dna",
+   "circulating tumor cells",
+   "tert promoter"
+  ],
+  "diag_s_t": [
+   "surveillance"
+  ],
+  "diag_s_a": [
+   "detection of",
+   "surveillance"
+  ],
+  "diag_w_t": [
+   "detection"
+  ],
+  "mech_t": [],
+  "mech_a": [],
+  "treat_t": [],
+  "treat_a": [
+   "chemotherapy",
+   "neoadjuvant"
+  ],
+  "tissue_t": [],
+  "tissue_a": [
+   "tumor tissue"
+  ],
+  "invas_t": [],
+  "general_t": [],
+  "mrd": [],
+  "verdict": "IN"
+ },
+ {
+  "rank": 2175,
+  "tc": 63,
+  "year": "2019",
+  "doi": "10.1002/mp.13438",
+  "title": "U-Net based deep learning bladder segmentation in CT urography",
+  "journal": "MEDICAL PHYSICS",
+  "type": "Article",
+  "bladder_t": true,
+  "tech_t": [
+   "ct urography",
+   "urography",
+   "deep learning"
+  ],
+  "tech_a": [
+   "ct urography",
+   "computed tomography urography",
+   "urography",
+   "computed tomography",
+   "deep learning",
+   "neural network",
+   "computer-aided detection"
+  ],
+  "diag_s_t": [],
+  "diag_s_a": [],
+  "diag_w_t": [],
+  "mech_t": [],
+  "mech_a": [],
+  "treat_t": [],
+  "treat_a": [],
+  "tissue_t": [],
+  "tissue_a": [],
+  "invas_t": [],
+  "general_t": [],
+  "mrd": [],
+  "verdict": "IN"
+ },
+ {
+  "rank": 2252,
+  "tc": 62,
+  "year": "2017",
+  "doi": "10.2214/AJR.16.17114",
+  "title": "Role of Imaging in the Local Staging of Urothelial Carcinoma of the Bladder",
+  "journal": "AMERICAN JOURNAL OF ROENTGENOLOGY",
+  "type": "Review",
+  "bladder_t": true,
+  "tech_t": [],
+  "tech_a": [
+   "mri",
+   "ct urography",
+   "urography"
+  ],
+  "diag_s_t": [
+   "staging"
+  ],
+  "diag_s_a": [
+   "staging"
+  ],
+  "diag_w_t": [],
+  "mech_t": [],
+  "mech_a": [],
+  "treat_t": [],
+  "treat_a": [
+   "cystectomy"
+  ],
+  "tissue_t": [],
+  "tissue_a": [],
+  "invas_t": [],
+  "general_t": [],
+  "mrd": [],
+  "verdict": "IN"
+ }
+]
