@@ -21,7 +21,7 @@ authors:
   - family-names: "Bitkin"
     given-names: "Alper"
     affiliation: "University of Health Sciences, Bakırköy Dr. Sadi Konuk Training and Research Hospital, Department of Urology, İstanbul, Türkiye"
-version: "1.2.0"
+version: "1.5.0"
 date-released: "2026-08-01"
 license: MIT
 keywords:
