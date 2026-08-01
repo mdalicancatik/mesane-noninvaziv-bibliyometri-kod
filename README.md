@@ -43,12 +43,31 @@ bib_parse.py  →  screen2.py  →  analiz.py  →  analiz2.py  →  sekiller.py
 |---|---|
 | `bib_parse.py` | Parses Web of Science `.bib` exports (**requires files downloaded with your own WoS access**, see §5) |
 | `screen2.py` | Applies the inclusion/exclusion criteria on a rule basis |
-| `manual.py` | Holds every manual decision (rank → decision + rationale). Corrects the false positives and false negatives of the rule-based engine |
+| `manual.py` | Holds every manual decision (rank → decision + rationale). Records the decisions for records the automatic procedure could not resolve |
 | `thesaurus.py` | Synonym-merging table (`THESAURUS`) and generic terms excluded from networks (`GENERIC`). Shared as an open file by design |
 | `analiz.py` | Keyword, country and author networks |
 | `analiz2.py` | Co-citation network, self-citation rate, Kleinberg citation burst |
 | `sekiller.py` | Twelve figures (300 dpi PNG) |
 | `screen.py` | First-pass screening, used only to gauge eligibility density; **plays no role in the final sample** |
+| `kaynak_gecmisi/03_screen_devir3.py` | Earlier version of the screening script, retained for provenance (see below) |
+
+### The screening procedure
+
+`screen2.py` computes 15 inclusion and exclusion signals for each record by matching the controlled
+term lists against the title, abstract and keyword fields. It does **not** itself assign an
+include/exclude decision: the ordered procedure that resolves those signals into a decision is
+documented as a numbered table in Appendix B of the article's supplementary file
+(`SUPPLEMENTARY_EN.md` in this repository).
+
+`kaynak_gecmisi/03_screen_devir3.py` contains an earlier version of the screening script in which
+that procedure is expressed directly as a `classify()` function with rationale labels. Its term
+lists were subsequently refined and two steps were changed — mechanism and treatment terms became
+hard exclusions, and a minimal-residual-disease exception was added — so it reproduces about 94% of
+the final decisions. It is included for provenance, not for re-execution.
+
+**The authoritative record of the screening outcome is the `verdict` field in
+`veri/pool5000_screening.json`**, which gives the decision for every one of the 5,000 records. Where
+the documented procedure and the recorded verdict differ, the recorded verdict governs.
 
 ## 3. Software and versions
 
@@ -134,12 +153,12 @@ be updated before running in another environment (see `kod/README_kod.md`).
 - BibTeX escaping: `\_` must be cleaned to `_` in DOIs.
 - "Urothelial carcinoma-associated 1" (UCA1) is a gene name; studies of other organs
   carrying this name leak into the disease block and were removed manually.
-- The rule-based screening engine cannot reach a record whose title contains no invasive
+- Term-based screening cannot reach a record whose title contains no invasive
   term; the corresponding exclusion is hard-coded in `manual.py`.
 
 ## 7. Limitation
 
-The screening engine's sensitivity is not 100%. Cross-checking against a reference set
+The sensitivity of the term-based screening is not 100%. Cross-checking against a reference set
 independent of the sample revealed false negatives arising from gaps in the thesaurus. One
 false negative detected above the citation threshold was added to the sample, and one
 record left the sample under the tie-breaking rule. False negatives falling below the

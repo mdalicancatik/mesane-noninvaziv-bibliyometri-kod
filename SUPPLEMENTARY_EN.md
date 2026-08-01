@@ -59,6 +59,42 @@ imaging, tissue genomics); invasive and endoscopic methods; studies confined to 
 urothelial carcinoma; clinical guidelines and general disease reviews; studies with mixed cohorts or
 covering several cancer types together.
 
+### Screening procedure
+
+The criteria above were applied through the following ordered procedure. Each record was assessed
+against the steps in sequence and assigned at the first step that matched.
+
+| Step | Condition (evaluated on the title unless stated) | Outcome |
+|:--:|---|---|
+| 1 | Minimal residual disease terms present (ctDNA/MRD exception) | **Include** |
+| 2 | No bladder or urothelial term | Exclude |
+| 3 | Upper urinary tract terms only, no bladder term | Exclude |
+| 4 | Tissue or histopathology terms | Exclude |
+| 5 | Invasive or endoscopic method terms | Exclude |
+| 6 | No non-invasive technology term | Exclude, unless the abstract carries both a technology term and a strong diagnostic term → **Borderline** |
+| 7 | Mechanism or tumour-biology terms | Exclude |
+| 8 | Treatment terms | Exclude |
+| 9 | No diagnostic framing term in title or abstract | **Borderline** |
+| 10 | General review terms (e.g. "advances in", "overview of") | Exclude |
+| 11 | Otherwise | **Include** |
+
+The term lists used at each step are given in full in `kod/screen2.py` and `kod/thesaurus.py` in
+the open archive. **The authoritative record of the outcome is the `verdict` field in
+`veri/pool5000_screening.json`**, which gives the decision for every one of the 5,000 records; the
+table above documents the procedure that produced it and reproduces approximately 99.7% of the
+automatic decisions when re-applied to the computed signals. The residual discrepancy reflects
+refinements made during screening that were not captured as a single rule; where the procedure and
+the recorded verdict differ, the recorded verdict governs.
+
+**Borderline records.** The procedure marked 112 records as borderline. Sixty-four of these were
+read at full-text level and adjudicated by discussion among three authors (34 included, 29
+excluded, 1 held for further checking); their decisions and rationales are in `kod/manual.py`. The
+remaining 48 were not adjudicated and were treated as not meeting the criteria. **All 48 fall
+between 55 and 36 citations, below the sample's lower bound of 63**, so none of them could have
+entered the sample regardless of how they were resolved; they are identifiable in
+`veri/pool5000_screening.json` by the verdict label. They are counted within the 4,748 records not
+meeting the criteria in Appendix C.
+
 **Restricted application of the invasive-method exclusion.** Almost every study measuring the
 diagnostic accuracy of a non-invasive test uses cystoscopy or transurethral resection as the
 reference standard; applied literally, the exclusion removed the most central studies in the field.
@@ -115,6 +151,11 @@ one exclusion criterion simultaneously; so that the total corresponds to 4,748, 
 assessed in the order given above and assigned to the **first** criterion it met. Row values
 therefore indicate the number of records excluded on that ground, not the number meeting that
 criterion. The inclusion and exclusion decisions themselves are independent of this ordering.
+
+Of the 4,748 records not meeting the criteria, 4,699 were excluded by the screening procedure, 48
+were marked borderline but not adjudicated, and 1 was held for further checking. The 48
+unadjudicated records all fall below the sample's citation threshold and could not have entered the
+sample (see Appendix B).
 
 Sixty-four borderline records were assessed at full-text level and decided by discussion among three
 authors (34 included, 29 excluded, 1 further check). All of these decisions appear in the
@@ -206,7 +247,7 @@ samples were compared. The overlap is 98%. Two of the four divergent records wer
 the term-free search, owing to vocabulary absent from the technology term list ("microbiota", "PET").
 The overlap analysis and the sensitivity test arrive at the same conclusion by independent routes.
 
-**Residual error.** Cross-checking also revealed false negatives in the study's own screening engine.
+**Residual error.** Cross-checking also revealed false negatives arising from gaps in the study's own term lists.
 One false negative above the citation threshold (a study on urinary microbiota, 84 citations) was
 added to the sample, and one record left the sample under the tie-breaking rule. Two further false
 negatives below the threshold do not affect the sample.
