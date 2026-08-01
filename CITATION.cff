@@ -21,9 +21,11 @@ authors:
   - family-names: "Bitkin"
     given-names: "Alper"
     affiliation: "University of Health Sciences, Bakırköy Dr. Sadi Konuk Training and Research Hospital, Department of Urology, İstanbul, Türkiye"
-version: "1.5.0"
-date-released: "2026-08-01"
-license: MIT
+version: "1.6.0"
+date-released: "2026-08-02"
+license:
+  - MIT
+  - CC-BY-4.0
 keywords:
   - bibliometrics
   - bladder cancer

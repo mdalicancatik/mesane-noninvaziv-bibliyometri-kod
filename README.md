@@ -6,7 +6,7 @@
 | **ORCID (corresponding author)** | [0000-0002-0226-7804](https://orcid.org/0000-0002-0226-7804) |
 | **Data source** | Web of Science Core Collection, SCI-EXPANDED only |
 | **Search date** | 30 July 2026 |
-| **Version** | 1.5.0 |
+| **Version** | 1.6.0 |
 | **Licence** | code MIT · derived data CC BY 4.0 |
 
 ---
@@ -36,13 +36,15 @@ they form part of the original audit trail.
 ## 2. Execution order
 
 ```
-bib_parse.py  →  screen2.py  →  analiz.py  →  analiz2.py  →  sekiller.py
+bib_parse.py  →  screen2.py  →  prosedur.py  →  analiz.py  →  analiz2.py  →  sekiller.py
 ```
 
 | Script | Purpose |
 |---|---|
 | `bib_parse.py` | Parses Web of Science `.bib` exports (**requires files downloaded with your own WoS access**, see §5) |
-| `screen2.py` | Applies the inclusion/exclusion criteria on a rule basis |
+| `screen2.py` | Computes the 15 inclusion/exclusion signals for each record; assigns no decision |
+| `prosedur.py` | The ordered rule that turns those signals into a decision, and the step that produced it |
+| `dogrula.py` | Runs `prosedur.py` against the shipped records and checks it against the recorded verdicts |
 | `manual.py` | Holds every manual decision (rank → decision + rationale). Records the decisions for records the automatic procedure could not resolve |
 | `thesaurus.py` | Synonym-merging table (`THESAURUS`) and generic terms excluded from networks (`GENERIC`). Shared as an open file by design |
 | `analiz.py` | Keyword, country and author networks |
@@ -55,9 +57,18 @@ bib_parse.py  →  screen2.py  →  analiz.py  →  analiz2.py  →  sekiller.py
 
 `screen2.py` computes 15 inclusion and exclusion signals for each record by matching the controlled
 term lists against the title, abstract and keyword fields. It does **not** itself assign an
-include/exclude decision: the ordered procedure that resolves those signals into a decision is
-documented as a numbered table in Appendix B of the article's supplementary file
-(`SUPPLEMENTARY_EN.md` in this repository).
+include/exclude decision. The ordered procedure that resolves those signals into a decision is in
+`prosedur.py`, and the same procedure is printed as a numbered table in Appendix B of the article's
+supplementary file (`SUPPLEMENTARY_EN.md` in this repository). `prosedur.py` returns both the
+decision and the number of the step that produced it; the step labels are the exclusion reasons
+tabulated in Appendix C.
+
+Run `python dogrula.py` from `kod/` to check this. Against the records whose signal fields are
+shipped here, the procedure reproduces **every verdict recorded as rule-based** (72 of 72 in the
+sample, 75 of 75 in the independent second sample) and marks the remainder as borderline — exactly
+the records read at full text and listed in `manual.py`. The single decision it does not reproduce
+is the false negative added to the sample by hand, which is documented in Appendix E of the
+supplementary file. No Web of Science access is needed to run this check.
 
 `kaynak_gecmisi/03_screen_devir3.py` contains an earlier version of the screening script in which
 that procedure is expressed directly as a `classify()` function with rationale labels. Its term
@@ -66,8 +77,10 @@ hard exclusions, and a minimal-residual-disease exception was added — so it re
 the final decisions. It is included for provenance, not for re-execution.
 
 **The authoritative record of the screening outcome is the `verdict` field in
-`veri/pool5000_screening.json`**, which gives the decision for every one of the 5,000 records. Where
-the documented procedure and the recorded verdict differ, the recorded verdict governs.
+`veri/pool5000_screening.json`**, which gives the decision for every one of the 5,000 records:
+`IN` (252), `OUT` (4,700) and `SINIR` (48, flagged as borderline by the procedure and not
+adjudicated). Where the documented procedure and the recorded verdict differ, the recorded verdict
+governs.
 
 ## 3. Software and versions
 
@@ -128,10 +141,20 @@ eligible-record pool at identifier level.
 
 ### Reproducibility boundary — stated plainly
 
-**Directly re-runnable with this package:** auditing the screening logic (`screen2.py` +
-`manual.py` + `thesaurus.py` allow every record's decision to be traced), sample selection
-and the tie-breaking rule, descriptive statistics, the sensitivity-test denominator, and
-the overlap analysis.
+**Directly re-runnable with this package:** the screening procedure and its verification
+(`prosedur.py` + `dogrula.py` reproduce the recorded verdicts from the signal fields shipped in
+`veri/top100.json` and `veri/sampleB.json`), the manual decisions and the term lists (`manual.py`,
+`thesaurus.py`), sample selection and the tie-breaking rule (`top100.json` is reproducible from
+`eligible252_identifiers.json` by sorting on `(-tc, year)`), descriptive statistics, the
+sensitivity-test denominator, and the overlap analysis.
+
+**Re-runnable only for the records whose signals are shipped:** the per-record exclusion reason.
+`prosedur.py` returns it, but it needs the signal fields, and those are computed from the title,
+abstract and keyword text of the record. Those fields are shipped for the 100 records of the sample
+and the 100 of the second sample, not for the full 5,000-record pool, because they are derived
+directly from proprietary Web of Science text. The reason counts in Appendix C are therefore
+reported as totals; regenerating them record by record requires re-running `bib_parse.py` and
+`screen2.py` on your own export, after which `prosedur.py` reproduces the reason for every record.
 
 **Not directly re-runnable:** the network analyses, co-citation, self-citation and
 Kleinberg burst detection. These read the `Affiliation`, `Keywords-Plus` and

@@ -73,24 +73,35 @@ against the steps in sequence and assigned at the first step that matched.
 | 5 | Invasive or endoscopic method terms | Exclude |
 | 6 | No non-invasive technology term | Exclude, unless the abstract carries both a technology term and a strong diagnostic term → **Borderline** |
 | 7 | Mechanism or tumour-biology terms | Exclude |
-| 8 | Treatment terms | Exclude |
+| 8 | Treatment terms, **and** no strong diagnostic term in the title | Exclude |
+| 10 | General review terms (e.g. "advances in", "overview of"), **and** no strong diagnostic term in title or abstract | Exclude |
 | 9 | No diagnostic framing term in title or abstract | **Borderline** |
-| 10 | General review terms (e.g. "advances in", "overview of") | Exclude |
 | 11 | Otherwise | **Include** |
 
-The term lists used at each step are given in full in `kod/screen2.py` and `kod/thesaurus.py` in
-the open archive. **The authoritative record of the outcome is the `verdict` field in
-`veri/pool5000_screening.json`**, which gives the decision for every one of the 5,000 records; the
-table above documents the procedure that produced it.
+Steps 8 and 10 carry an override because a diagnostic study may name a treatment or use a review
+formula in its title: "Early Detection … and Monitoring of Therapeutic Efficacy" contains a
+treatment term, and "Overview of VI-RADS in Bladder Cancer" a review formula, yet both are
+diagnostic studies. Step 10 is evaluated before step 9, as the numbering of the original rule set
+is retained.
+
+**The procedure is shipped as executable code**: `kod/prosedur.py` implements the table above and
+returns both the decision and the step that produced it, and `kod/dogrula.py` runs it against the
+records in this archive. Applied to the 100 records of the sample, it reproduces **every one of the
+72 verdicts recorded as rule-based** and marks the remainder as borderline — precisely the records
+read at full text and listed in `kod/manual.py`. The only decision it does not reproduce is the
+false negative added manually to the sample (Appendix E). The same check on the independent second
+sample returns 75 of 75. The term lists used at each step are in `kod/screen2.py` and
+`kod/thesaurus.py`. **The authoritative record of the outcome is the `verdict` field in
+`veri/pool5000_screening.json`**, which gives the decision for every one of the 5,000 records.
 
 **Borderline records.** The procedure marked 112 records as borderline. Sixty-four of these were
-read at full-text level and adjudicated by discussion among three authors (34 included, 29
-excluded, 1 held for further checking); their decisions and rationales are in `kod/manual.py`. The
-remaining 48 were not adjudicated and were treated as not meeting the criteria. **All 48 fall
-between 55 and 36 citations, below the sample's lower bound of 63**, so none of them could have
-entered the sample regardless of how they were resolved; they are identifiable in
-`veri/pool5000_screening.json` by the verdict label. They are counted within the 4,748 records not
-meeting the criteria in Appendix C.
+read at full-text level and adjudicated by discussion among three authors (34 included, 30
+excluded); their decisions and rationales are in `kod/manual.py`. The remaining 48 were not
+adjudicated and were treated as not meeting the criteria. **All 48 fall between 55 and 36
+citations, below the sample's lower bound of 63**, so none of them could have entered the sample
+regardless of how they were resolved; they are identifiable in `veri/pool5000_screening.json` by
+the verdict label. They are counted within the 4,748 records not meeting the criteria in
+Appendix C.
 
 **Restricted application of the invasive-method exclusion.** Almost every study measuring the
 diagnostic accuracy of a non-invasive test uses cystoscopy or transurethral resection as the
@@ -128,15 +139,15 @@ organ cancers bearing this name leak into the disease block.
 | Pool downloaded in descending citation order | 5,000 |
 | — citation range | 4,376 – 35 |
 | **Not meeting criteria** | **4,748** |
-| — no non-invasive diagnostic technology focus | 1,957 |
-| — subject not bladder cancer, or bladder incidental | 896 |
-| — treatment, surgery, drug development or radiotherapy | 852 |
-| — mechanism and tumour biology | 725 |
-| — clinical guideline or general disease review | 140 |
-| — invasive or endoscopic method as the subject of the study | 84 |
-| — tissue- or histopathology-based | 45 |
-| — retracted publication or expression of concern | 37 |
-| — upper urinary tract urothelial carcinoma only | 12 |
+| **Excluded by the screening procedure** | **4,700** |
+| — no non-invasive diagnostic technology focus *(step 6)* | 1,957 |
+| — subject not bladder cancer, or bladder incidental *(step 2)* | 896 |
+| — treatment, surgery, drug development or radiotherapy *(step 8)* | 852 |
+| — mechanism and tumour biology *(step 7)* | 725 |
+| — clinical guideline or general disease review *(step 10)* | 141 |
+| — invasive or endoscopic method as the subject of the study *(step 5)* | 84 |
+| — tissue- or histopathology-based *(steps 3 and 4)* | 45 |
+| **Flagged as borderline and not adjudicated** | **48** |
 | **Meeting criteria** | **252** |
 | Not among the top 100 by citation count | 152 |
 | **Sample** | **100** |
@@ -144,19 +155,26 @@ organ cancers bearing this name leak into the disease block.
 
 **Notes.** Because the document-type criterion was applied at query level, all records in the pool
 are research articles or reviews; no record was excluded on this ground. A record may meet more than
-one exclusion criterion simultaneously; so that the total corresponds to 4,748, each record was
+one exclusion criterion simultaneously; so that the seven rows sum to 4,700, each record was
 assessed in the order given above and assigned to the **first** criterion it met. Row values
 therefore indicate the number of records excluded on that ground, not the number meeting that
-criterion. The inclusion and exclusion decisions themselves are independent of this ordering.
+criterion. The inclusion and exclusion decisions themselves are independent of this ordering. Every
+decision is recoverable from the `verdict` field in `veri/pool5000_screening.json`, where the three
+totals above appear as `OUT` (4,700), `SINIR` (48) and `IN` (252). The reason labels are the steps
+of the procedure in Appendix B, and the assignment is not a description but running code:
+`kod/prosedur.py` returns the step that produced each decision, and `kod/dogrula.py` reproduces the
+recorded verdicts from it. Recomputing the step for a record outside the sample requires the title,
+abstract and keyword fields of that record, which are proprietary Web of Science content and are not
+redistributed; this is the same boundary that applies to the network analyses (README §5).
 
-Of the 4,748 records not meeting the criteria, 4,699 were excluded by the screening procedure, 48
-were marked borderline but not adjudicated, and 1 was held for further checking. The 48
-unadjudicated records all fall below the sample's citation threshold and could not have entered the
-sample (see Appendix B).
+Thirty-seven of the excluded records are retracted publications (33) or carry an expression of
+concern (4); they are identifiable from the document-type field in the archive, and each is counted
+under the substantive criterion it met first. Twelve concern upper urinary tract urothelial
+carcinoma only.
 
 Sixty-four borderline records were assessed at full-text level and decided by discussion among three
-authors (34 included, 29 excluded, 1 further check). All of these decisions appear in the
-`manual.py` file in the open archive as rank, decision and rationale.
+authors (34 included, 30 excluded). All of these decisions appear in the `manual.py` file in the
+open archive as rank, decision and rationale.
 
 ---
 
@@ -218,7 +236,7 @@ defined at journal level and invite misleading inferences about individual artic
 Sensitivity was measured against a set of 148 unique references with DOIs published between 2016 and
 2025, extracted from the reference lists of five reviews and frozen before the sample was drawn.
 Seven of these references were not found in Web of Science/SCI-EXPANDED and five did not meet the
-document-type criterion; the corrected denominator is 136 (Figure S6).
+document-type criterion; the corrected denominator is 136 (Figure S1).
 
 | Query | Retrieved | /148 | /141 | /136 |
 |---|---|---|---|---|
@@ -228,9 +246,9 @@ document-type criterion; the corrected denominator is 136 (Figure S6).
 
 Raw sensitivity differences are misleading on their own, because a large part of the denominator
 consists of guideline, epidemiology and treatment references whose non-retrieval is correct. Of the
-52 records missed by Query 1, 43 are out of scope and 3 are on topic but do not meet the
-document-type criterion. The remaining **five records were on topic and retrievable yet were
-missed**, and in all five cases the cause was a gap in the term list: targeted deep sequencing, the
+52 records in the index missed by Query 1, 43 are out of scope and the remainder do not meet the
+document-type criterion, except for **five records that were on topic and retrievable yet were
+missed**; and in all five cases the cause was a gap in the term list: targeted deep sequencing, the
 term "epigenetic", cell-free RNA ("cell-free DNA" is in the list, "cell-free RNA" is not),
 hyaluronic-acid-based markers, and the expression "urine-based".
 
@@ -254,25 +272,27 @@ negatives below the threshold do not affect the sample.
 ## APPENDIX F — ADDITIONAL DESCRIPTIVE RESULTS
 
 **Publication years.** The distribution from 2016 to 2025 is 13, 17, 21, 22, 13, 8, 2, 2, 1 and 1
-respectively (Figure S1). The concentration in earlier years is a consequence of the
+respectively (Figure S2). The concentration in earlier years is a consequence of the
 citation-accumulation window.
 
 **Citation distribution.** Mean 114.5, median 85, standard deviation 85.9; first and third quartiles
-69.0 and 119.8, interquartile range 50.8; Fisher–Pearson adjusted skewness 3.42 (Figure S2).
+69.8 and 120.5, interquartile range 50.8; Fisher–Pearson adjusted skewness 3.42 (Figure S3).
 
 **Countries.** Under full counting: United States 41, China 25, Italy 19, United Kingdom 17,
-Netherlands 15, Japan 14, Spain 12, Germany 11, France 9, Canada 8 (Figure S3). The country network
+Netherlands 15, Japan 14, Spain 12, Germany 11, France 9, Canada 8 (Figure S4). The country network
 comprises 19 nodes and 147 edges, with density 0.860 and modularity 0.041; at these values there is
 no meaningful community structure and no cluster interpretation was made.
 
 **Institutions.** Sapienza University of Rome 11, Sun Yat-sen University 11, Harvard University 7,
-University of London 7, Radboud University Nijmegen 7, University of Texas System 7.
+Radboud University Nijmegen 7. Two further entries with 7 articles each, University of London and
+University of Texas System, are aggregate organisations in the Web of Science hierarchy rather than
+single institutions and are reported separately for that reason.
 
-**Collaboration.** 49 international, 36 national, 15 local; no single-authored studies (Figure S4).
+**Collaboration.** 49 international, 36 national, 15 local; no single-authored studies (Figure S5).
 
 **Authors.** Panebianco V 9 articles, Liu Y 6, Lu H 6, Zhang X 6, Xu X 6, Witjes JA 5, Catto JWF 5.
 The co-authorship network comprises 23 nodes and 60 edges, with modularity 0.523 and density 0.237
-(Figure S5); modularity is high and the cluster structure is interpretable, indicating six research
+(Figure S6); modularity is high and the cluster structure is interpretable, indicating six research
 groups working largely independently.
 
 **Review articles.** Twenty-three of the sample are reviews and 77 research articles. Reviews
@@ -296,13 +316,16 @@ wider datasets, with thresholds scaled in proportion to dataset size:
 | Entire pool (n = 5,000) | 24 | 265 | 3 | 0.134 | 0.960 |
 
 Modularity remains in the range 0.11–0.17 at all three scales, so weak cluster separation is not an
-artefact of the citation-thresholded sampling design.
+artefact of the citation-thresholded sampling design. The comparison is anchored on the first two
+rows; at pool scale the network is close to complete (density 0.960), and in a network of that
+density modularity is bounded near zero by construction, so that row is reported for completeness
+rather than as independent support.
 
 ---
 
 ## APPENDIX G — BIBLIO COMPLIANCE TABLE (20 items)
 
-The table below shows where each of the 20 items of the BIBLIO guideline⁵ — developed for
+The table below shows where each of the 20 items of the BIBLIO guideline — developed for
 bibliometric reviews of the biomedical literature and registered with the EQUATOR Network — is
 addressed in this article. Item wording is condensed from the original checklist.
 
@@ -317,11 +340,11 @@ addressed in this article. Item wording is condensed from the original checklist
 | Methods | 7 | Keywords and systematisation criteria (date of search, language, document type) | Methods; Appendix C | Met |
 | Methods | 8 | The period the review covers and its justification | Methods | Met |
 | Methods | 9 | Inclusion and exclusion criteria; study design, publication type, time period | Methods | Met |
-| Methods | 10 | Data refinement; removal of duplicate and unrelated articles | Methods, Methods; Appendix C | Met |
+| Methods | 10 | Data refinement; removal of duplicate and unrelated articles | Methods; Appendix C | Met |
 | Methods | 11 | *(Optional)* Assessment of papers by three authors | Methods | **Met** — the 64 borderline records were decided by discussion among three authors |
 | Methods | 12 | Methods used for summarising, synthesis, tabulation and analysis | Methods | Met |
 | Results | 13 | Flow diagram of search and selection; descriptive counts | Results; Appendix C | Met |
-| Results | 14 | Schematic maps and trends presented using appropriate software | Figures 7–10 | Met |
+| Results | 14 | Schematic maps and trends presented using appropriate software | Figures 3–5 | Met |
 | Results | 15 | Tabulation of findings; historical view; separate reporting of review papers | Introduction (historical view); Appendix F (reviews) | Met |
 | Results | 16 | Synthesis of findings; identification of the gap; proposal of a model or hypothesis | Results, Discussion | Met |
 | Discussion | 17 | Summarise main findings in general, accessible terms | Discussion, opening paragraph | Met |
@@ -337,7 +360,7 @@ All 20 items are met, including item 11, which the guideline itself marks as opt
 
 ## APPENDIX H — RAMIBS COMPLIANCE TABLE (12 items)
 
-The table below shows where each of the 12 items of the RAMIBS guideline⁶ — developed for
+The table below shows where each of the 12 items of the RAMIBS guideline — developed for
 bibliometric and scientometric studies in the health sciences — is addressed in this article. Item
 wording is condensed from the original checklist.
 
@@ -345,15 +368,15 @@ wording is condensed from the original checklist.
 |:--:|---|---|---|
 | 1 | Descriptive title emphasising the bibliometric approach; structured abstract | Title; Abstract | Met |
 | 2 | Identification of prior studies, statement of how this study differs, research question and aim | Introduction | Met |
-| 3 | Justification of single-database choice; criteria; time frame; date of data collection; definition of indicators | Methods, Methods, Methods, Methods | Met |
+| 3 | Justification of single-database choice; criteria; time frame; date of data collection; definition of indicators | Methods | Met |
 | 4 | Construction of the search string; sources of terms; appropriate use of Boolean operators and truncation | Methods; Appendix C | Met |
-| 5 | Date of the final search; exclusion of the current year; justification of document-type and language limits | Methods, Methods | Met |
-| 6 | Four indicator dimensions: production, impact, collaboration and alternative (altmetric) indicators | Production: Results–3.2, Figures 1–2 · Impact: Results, Results · Collaboration: Results | **Partially met** — altmetric indicators are absent from the Web of Science export and could not be assessed |
-| 7 | Reporting of macro (country), meso (institution) and micro (author) levels of analysis | Macro: Results · Meso: Results · Micro: Results | Met — gender analysis at micro level was not performed owing to the error rate of name-based assignment |
-| 8 | Predefined extraction matrix; justification of analytical techniques | Methods, Methods | Met |
-| 9 | Name and version of all software used; visualisation parameters; term normalisation | Methods, Methods | Met |
+| 5 | Date of the final search; exclusion of the current year; justification of document-type and language limits | Methods | Met |
+| 6 | Four indicator dimensions: production, impact, collaboration and alternative (altmetric) indicators | Production: Results, Figures 1–2 · Impact: Results · Collaboration: Results | **Partially met** — altmetric indicators are absent from the Web of Science export and could not be assessed |
+| 7 | Reporting of macro (country), meso (institution) and micro (author) levels of analysis | Macro, meso and micro levels: Results | Met — gender analysis at micro level was not performed owing to the error rate of name-based assignment |
+| 8 | Predefined extraction matrix; justification of analytical techniques | Methods | Met |
+| 9 | Name and version of all software used; visualisation parameters; term normalisation | Methods | Met |
 | 10 | Presentation of the full data matrix as a supplement; number of excluded records and reasons | Open archive (Zenodo); Appendix C | Met |
-| 11 | Correspondence of results with the aim; comparison with other bibliometric studies; limitations; recommendations | Discussion, Discussion, Limitations | Met |
+| 11 | Correspondence of results with the aim; comparison with other bibliometric studies; limitations; recommendations | Discussion; Limitations | Met |
 | 12 | Summary of the main findings | Conclusion | Met |
 
 Eleven of the 12 items are fully met and one partially.
@@ -364,7 +387,7 @@ Eleven of the 12 items are fully met and one partially.
 
 ## APPENDIX I — GLOBAL COMPLIANCE TABLE (29 items)
 
-The table below shows where each of the 29 items of the GLOBAL guideline⁴ for reporting
+The table below shows where each of the 29 items of the GLOBAL guideline for reporting
 bibliometric analyses is addressed in this article.
 
 > **Note on the number of items.** This table follows the 29-item final list given in the
@@ -381,9 +404,9 @@ bibliometric analyses is addressed in this article.
 | Introduction | 2.2 | Rationale and knowledge gap | Introduction |
 | Introduction | 2.3 | Research question | Introduction, final paragraph |
 | Introduction | 2.4 | Definition of terms, concepts and theoretical frameworks | Methods — the absence of a theoretical framework is stated explicitly |
-| Methods | 3.1 | Bibliometric methods used | Methods, Methods |
-| Methods | 3.2 | Units of analysis | Methods, Methods |
-| Methods | 3.3 | Method of data collection | Methods, Methods |
+| Methods | 3.1 | Bibliometric methods used | Methods |
+| Methods | 3.2 | Units of analysis | Methods |
+| Methods | 3.3 | Method of data collection | Methods |
 | Methods | 3.4 | Databases and data sources | Methods |
 | Methods | 3.5 | Search strategy | Methods; Supplementary File (full strings) |
 | Methods | 3.6 | Time frame | Methods |
@@ -391,11 +414,11 @@ bibliometric analyses is addressed in this article.
 | Methods | 3.8 | Data cleaning | Methods |
 | Methods | 3.9 | Data analysis | Methods |
 | Methods | 3.10 | Analytical software and versions | Methods |
-| Methods | 3.11 | Indicators used | Methods, Methods |
+| Methods | 3.11 | Indicators used | Methods |
 | Methods | 3.12 | Calculations and formulas | Methods, Appendix D |
 | Methods | 3.13 | Replicability and transparency | Methods; Declarations (open code archive) |
 | Results | 4.1 | Results of the study | Results |
-| Results | 4.2 | Results of the techniques used | Results–Results |
+| Results | 4.2 | Results of the techniques used | Results |
 | Results | 4.3 | Tables and graphs should not mislead | Every network figure carries a note that inter-node distances are a product of the layout algorithm and should not be interpreted |
 | Results | 4.4 | Measures of dispersion and uncertainty | Results (standard deviation, interquartile range, skewness) |
 | Discussion | 5.1 | Discussion of the results | Discussion |
@@ -403,7 +426,7 @@ bibliometric analyses is addressed in this article.
 | Discussion | 5.3 | Strengths and limitations | Limitations |
 | Other | 6.1 | Conflict of interest and support statement | Declarations |
 | Other | 6.2 | Availability of the data | Declarations — the proprietary status of the raw Web of Science data and the resulting impossibility of sharing it are stated explicitly |
-| Other | 6.3 | Use of references to support statements and methods; citation of software and datasets | References (19–21: Clauset, Hirsch, Kleinberg); Methods (software versions) |
+| Other | 6.3 | Use of references to support statements and methods; citation of software and datasets | References 6 and 7 (Clauset, Kleinberg) and 8–10 (reporting guidelines); Methods (software versions) |
 | Other | 6.4 | Statement on the sharing of materials, data and code | Declarations — code and derived-data archive with a persistent identifier |
 
 All 29 items are met.
