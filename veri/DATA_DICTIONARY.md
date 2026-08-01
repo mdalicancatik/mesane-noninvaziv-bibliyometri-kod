@@ -87,7 +87,7 @@ with the screening decision for each record.
 | `year` | Publication year |
 | `tc` | Web of Science citation count |
 | `type` | Web of Science document type |
-| `verdict` | `IN` = meets criteria · `OUT` = does not |
+| `verdict` | `IN` = meets criteria (n = 252) · `OUT` = does not (n = 4,700) · `SINIR` = flagged as borderline by the procedure and not adjudicated (n = 48) |
 
 The pool spans 4,376–35 citations. The sample's lower bound is 63 citations, giving a
 **safety margin of 28 citations**: no eligible record outside the pool could have more
