@@ -2,11 +2,11 @@
 
 | | |
 |---|---|
-| **Author** | Alican Çatık · University of Health Sciences, Bakırköy Dr. Sadi Konuk Training and Research Hospital, İstanbul, Türkiye |
-| **ORCID** | [0000-0002-0226-7804](https://orcid.org/0000-0002-0226-7804) |
+| **Authors** | Alican Çatık (corresponding), Mithat Ekşi, Serdar Karadağ, Alper Bitkin · University of Health Sciences, Bakırköy Dr. Sadi Konuk Training and Research Hospital, Department of Urology, İstanbul, Türkiye |
+| **ORCID (corresponding author)** | [0000-0002-0226-7804](https://orcid.org/0000-0002-0226-7804) |
 | **Data source** | Web of Science Core Collection, SCI-EXPANDED only |
 | **Search date** | 30 July 2026 |
-| **Version** | 1.0.0 |
+| **Version** | 1.5.0 |
 | **Licence** | code MIT · derived data CC BY 4.0 |
 
 ---
@@ -167,12 +167,12 @@ article.
 
 ## 8. Citing this package
 
-Once the Zenodo DOI has been issued, the article's data- and code-availability statement
-should cite the **Concept DOI**, which represents all versions, rather than a version DOI.
-This keeps the citation valid even if the code is later corrected.
+The article's data- and code-availability statement cites the **Concept DOI**, which represents
+all versions, rather than a version DOI. This keeps the citation valid even if the code is later
+corrected.
 
 ```
-Çatık A. The 100 most-cited articles on non-invasive diagnosis and surveillance of
-bladder cancer: analysis code and derived data. Version 1.0.0. Zenodo; 2026.
-doi:[CONCEPT DOI]
+Çatık A, Ekşi M, Karadağ S, Bitkin A. The 100 most-cited articles on non-invasive
+diagnosis and surveillance of bladder cancer: analysis code and derived data.
+Zenodo; 2026. doi:10.5281/zenodo.21724781
 ```
