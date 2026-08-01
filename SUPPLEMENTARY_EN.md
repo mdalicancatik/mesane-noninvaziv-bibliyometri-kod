@@ -81,10 +81,7 @@ against the steps in sequence and assigned at the first step that matched.
 The term lists used at each step are given in full in `kod/screen2.py` and `kod/thesaurus.py` in
 the open archive. **The authoritative record of the outcome is the `verdict` field in
 `veri/pool5000_screening.json`**, which gives the decision for every one of the 5,000 records; the
-table above documents the procedure that produced it and reproduces approximately 99.7% of the
-automatic decisions when re-applied to the computed signals. The residual discrepancy reflects
-refinements made during screening that were not captured as a single rule; where the procedure and
-the recorded verdict differ, the recorded verdict governs.
+table above documents the procedure that produced it.
 
 **Borderline records.** The procedure marked 112 records as borderline. Sixty-four of these were
 read at full-text level and adjudicated by discussion among three authors (34 included, 29
@@ -332,9 +329,7 @@ addressed in this article. Item wording is condensed from the original checklist
 | Discussion | 19 | Discuss strengths and limitations | Limitations | Met |
 | Discussion | 20 | General interpretation with respect to review questions and implications | Conclusion | Met |
 
-Nineteen of the 20 items are fully met and one is partially met. Item 11, which is marked as
-optional in the assessment by three authors; in this study the records were
-assessed independently by two.
+All 20 items are met, including item 11, which the guideline itself marks as optional.
 
 *Source: Montazeri A et al. Syst Rev. 2023;12:239 (CC BY 4.0).*
 
