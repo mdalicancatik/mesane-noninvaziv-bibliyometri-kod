@@ -4,7 +4,7 @@ Required packages: `networkx` 3.6.1 · `matplotlib` 3.10.8 (Python 3.12.3).
 `numpy` 2.4.4 is present as a matplotlib dependency but is not imported directly.
 
 ```
-bib_parse.py  →  screen2.py  →  analiz.py  →  analiz2.py  →  sekiller.py
+bib_parse.py  →  screen2.py  →  prosedur.py  →  analiz.py  →  analiz2.py  →  sekiller.py
 ```
 
 ## Before running
@@ -26,6 +26,8 @@ own institutional access. See §5 of the top-level `README.md`.
 | File | Role |
 |---|---|
 | `bib_parse.py` | Parses `.bib` exports, merges citation reports, writes `records.json` |
+| `prosedur.py` | Ordered rule that turns the signals from `screen2.py` into a decision plus the step that produced it |
+| `dogrula.py` | Checks `prosedur.py` against the recorded verdicts; run with no arguments, needs no WoS access |
 | `screen.py` | First-pass screening. Used only to gauge eligibility density; **no role in the final sample** |
 | `screen2.py` | Final rule-based screening against the inclusion/exclusion criteria |
 | `manual.py` | Every manual decision, as rank → decision + rationale. Corrects the rule engine's false positives and false negatives |

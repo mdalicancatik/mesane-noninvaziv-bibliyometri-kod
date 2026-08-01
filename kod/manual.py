@@ -4,7 +4,7 @@ MANUAL = {
  158:("OUT","mekanizma: circRNA sponge düzenleyici rol"),
  513:("OUT","tedavi/ilaç etkinliği, organoid model"),
  569:("IN","idrar temelli sürücü gen mutasyonu + anöploidi ile noninvaziv tanı"),
- 645:("KONTROL","üroloji geneli ML derlemesi — mesane odak mı, tam başlık gerek"),
+ 645:("OUT","§6: üroloji geneli ML/DL derlemesi — ürolitiyazis, RCC, mesane ve prostat birlikte; genel derleme ve çok hastalıklı kapsam"),
  686:("IN","ctDNA ile metastatik mesane genomu — kan temelli sıvı biyopsi"),
  704:("OUT","mekanizma: miRNA hücre agresifliği düzenlemesi"),
  731:("OUT","mekanizma: circRNA sponge"),
