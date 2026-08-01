@@ -6,7 +6,7 @@
 | **ORCID (corresponding author)** | [0000-0002-0226-7804](https://orcid.org/0000-0002-0226-7804) |
 | **Data source** | Web of Science Core Collection, SCI-EXPANDED only |
 | **Search date** | 30 July 2026 |
-| **Version** | 1.6.0 |
+| **Version** | 1.6.1 |
 | **Licence** | code MIT · derived data CC BY 4.0 |
 
 ---
